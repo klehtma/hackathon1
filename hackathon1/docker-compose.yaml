@@ -3,8 +3,7 @@ name: myapp
 services:
 
   # ==========================================================
-  # WEB APPLICATION BACKEND
-  # Node.js + Express.js + Prisma
+  # BACKEND
   # ==========================================================
 
   backend:
@@ -72,7 +71,6 @@ services:
 
   # ==========================================================
   # DATA SERVICE
-  # Python + SQLAlchemy + psycopg
   # ==========================================================
 
   data_service:
@@ -85,15 +83,18 @@ services:
     init: true
 
     env_file:
-      - .env
+      - ./data_service/.env
 
     environment:
       PYTHONUNBUFFERED: "1"
-      DATABASE_URL: postgresql+psycopg://${DATA_SERVICE_DB_USER}:${DATA_SERVICE_DB_PASSWORD}@postgres:5432/${POSTGRES_DB}
+      PYTHONDONTWRITEBYTECODE: "1"
 
     depends_on:
       postgres:
         condition: service_healthy
+
+      ollama:
+        condition: service_started
 
     networks:
       - data_network
@@ -107,16 +108,16 @@ services:
     read_only: true
 
     tmpfs:
-      - /tmp:size=128m,noexec,nosuid
+      - /tmp:size=256m,noexec,nosuid
 
     deploy:
       resources:
         limits:
-          cpus: "2.0"
-          memory: 1G
+          cpus: "4.0"
+          memory: 2G
         reservations:
-          cpus: "0.25"
-          memory: 256M
+          cpus: "0.5"
+          memory: 512M
 
     healthcheck:
       test:
@@ -129,7 +130,7 @@ services:
       interval: 30s
       timeout: 10s
       retries: 3
-      start_period: 20s
+      start_period: 30s
 
 
   # ==========================================================
@@ -186,8 +187,38 @@ services:
 
 
   # ==========================================================
+  # OLLAMA
+  # ==========================================================
+
+  ollama:
+    image: ollama/ollama:latest
+
+    restart: unless-stopped
+
+    volumes:
+      - ollama_data:/root/.ollama
+
+    networks:
+      - data_network
+
+    expose:
+      - "11434"
+
+    security_opt:
+      - no-new-privileges:true
+
+    deploy:
+      resources:
+        limits:
+          cpus: "4.0"
+          memory: 8G
+        reservations:
+          cpus: "1.0"
+          memory: 2G
+
+
+  # ==========================================================
   # FRONTEND
-  # Add when frontend stack is provided.
   # ==========================================================
 
   # frontend:
@@ -218,14 +249,10 @@ networks:
   app_network:
     driver: bridge
 
-  # Backend can reach PostgreSQL.
-  # Data service is NOT attached to this network.
   db_read_network:
     driver: bridge
     internal: true
 
-  # Data service can reach PostgreSQL.
-  # Backend is NOT attached to this network.
   data_network:
     driver: bridge
     internal: true
@@ -236,5 +263,9 @@ networks:
 # ============================================================
 
 volumes:
+
   postgres_data:
+    driver: local
+
+  ollama_data:
     driver: local
