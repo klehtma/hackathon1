@@ -8,7 +8,7 @@ export default function StatusBar({ isConnected, lastUpdated, arbCount }: Status
   return (
     <header className="status-bar">
       <div className="status-bar__brand">
-        <span className="status-bar__mark">ARB/FINDER</span>
+        <span className="status-bar__mark">ARBETTER</span>
       </div>
       <div className="status-bar__meta">
         <span className={`status-bar__dot ${isConnected ? "is-live" : "is-down"}`} />

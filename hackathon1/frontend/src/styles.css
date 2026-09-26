@@ -138,6 +138,25 @@ body {
   outline: none;
 }
 
+/* Theme the number input's spin arrows to match the dark UI.
+   Chrome/Edge/Safari only — Firefox exposes no styling hook for these,
+   it can only hide them (see the -moz-appearance rule below).
+   Native icon is white/achromatic, so plain invert() controls darkness
+   directly — no hue-rotate needed since there's no color to shift. */
+.sidebar__profit-input input::-webkit-inner-spin-button,
+.sidebar__profit-input input::-webkit-outer-spin-button {
+  filter: invert(0.62); /* -> dark gray, close to var(--border) */
+  opacity: 0.6;
+  cursor: pointer;
+  transition: opacity 0.15s ease, filter 0.15s ease;
+}
+
+.sidebar__profit-input input::-webkit-inner-spin-button:hover,
+.sidebar__profit-input input::-webkit-outer-spin-button:hover {
+  filter: invert(0.7); /* slightly lighter on hover, a subtle highlight */
+  opacity: 1;
+}
+
 .sidebar__profit-input span {
   color: var(--text-dim);
   font-family: var(--font-mono);

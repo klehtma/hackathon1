@@ -156,6 +156,26 @@ const opportunities = [
       { outcomeName: "Zenit St. Petersburg", bookmaker: "Optibet", price: 2.1, stakePercent: 44.9 },
     ],
   },
+  {
+    // Never goes stale: ArbRow.tsx computes staleness client-side as
+    // (Date.now() - detectedAt) > 90s, so a detectedAt far in the future
+    // keeps that diff permanently negative. Handy for styling work where
+    // you don't want a row fading out mid-session. (Its expanded footnote
+    // will show a negative "Detected ...s ago" — harmless, just cosmetic.)
+    matchId: "demo-match-pinned",
+    homeTeam: "Arsenal",
+    awayTeam: "Liverpool",
+    commenceTime: hoursFromNow(12),
+    sportKey: "soccer_epl",
+    totalImpliedProbability: 0.965,
+    profitPercent: 3.5,
+    detectedAt: new Date("2099-01-01T00:00:00Z"),
+    legs: [
+      { outcomeName: "Arsenal", bookmaker: "Coolbet", price: 2.3, stakePercent: 44.6 },
+      { outcomeName: "Draw", bookmaker: "Epicbet", price: 3.6, stakePercent: 28.4 },
+      { outcomeName: "Liverpool", bookmaker: "Optibet", price: 3.1, stakePercent: 27.0 },
+    ],
+  },
 ];
 
 async function main() {
