@@ -3,7 +3,8 @@ name: myapp
 services:
 
   # ==========================================================
-  # BACKEND
+  # WEB APPLICATION BACKEND
+  # Node.js + Express.js + Prisma
   # ==========================================================
 
   backend:
@@ -71,9 +72,15 @@ services:
 
   # ==========================================================
   # DATA SERVICE
+  # Python + SQLAlchemy + psycopg
   # ==========================================================
 
   data_service:
+    # Not dockerized yet (empty Dockerfile, needs Camoufox + Ollama).
+    # Excluded from a plain `docker compose up`; run it explicitly once
+    # it's ready with: docker compose --profile scraper up
+    profiles: ["scraper"]
+
     build:
       context: ./data_service
       dockerfile: Dockerfile
@@ -83,18 +90,15 @@ services:
     init: true
 
     env_file:
-      - ./data_service/.env
+      - .env
 
     environment:
       PYTHONUNBUFFERED: "1"
-      PYTHONDONTWRITEBYTECODE: "1"
+      DATA_SERVICE_DATABASE_URL: postgresql+psycopg://${DATA_SERVICE_DB_USER}:${DATA_SERVICE_DB_PASSWORD}@postgres:5432/${POSTGRES_DB}
 
     depends_on:
       postgres:
         condition: service_healthy
-
-      ollama:
-        condition: service_started
 
     networks:
       - data_network
@@ -108,16 +112,16 @@ services:
     read_only: true
 
     tmpfs:
-      - /tmp:size=256m,noexec,nosuid
+      - /tmp:size=128m,noexec,nosuid
 
     deploy:
       resources:
         limits:
-          cpus: "4.0"
-          memory: 2G
+          cpus: "2.0"
+          memory: 1G
         reservations:
-          cpus: "0.5"
-          memory: 512M
+          cpus: "0.25"
+          memory: 256M
 
     healthcheck:
       test:
@@ -130,7 +134,7 @@ services:
       interval: 30s
       timeout: 10s
       retries: 3
-      start_period: 30s
+      start_period: 20s
 
 
   # ==========================================================
@@ -146,6 +150,12 @@ services:
       POSTGRES_DB: ${POSTGRES_DB}
       POSTGRES_USER: ${POSTGRES_ADMIN_USER}
       POSTGRES_PASSWORD: ${POSTGRES_ADMIN_PASSWORD}
+      # Read by database/init/01-create-app-roles.sh to provision the
+      # least-privilege roles backend/data_service connect as.
+      BACKEND_DB_USER: ${BACKEND_DB_USER}
+      BACKEND_DB_PASSWORD: ${BACKEND_DB_PASSWORD}
+      DATA_SERVICE_DB_USER: ${DATA_SERVICE_DB_USER}
+      DATA_SERVICE_DB_PASSWORD: ${DATA_SERVICE_DB_PASSWORD}
 
     volumes:
       - postgres_data:/var/lib/postgresql/data
@@ -187,57 +197,59 @@ services:
 
 
   # ==========================================================
-  # OLLAMA
+  # FRONTEND
+  # React + Vite, served by Nginx
   # ==========================================================
 
-  ollama:
-    image: ollama/ollama:latest
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      target: production
+      args:
+        # Left empty so the app calls its own origin, which nginx.conf then
+        # proxies to the backend container. Only set this if the backend
+        # is hosted on a different origin than the frontend.
+        VITE_API_BASE_URL: ${VITE_API_BASE_URL:-}
 
     restart: unless-stopped
+    init: true
 
-    volumes:
-      - ollama_data:/root/.ollama
+    depends_on:
+      backend:
+        condition: service_healthy
 
     networks:
-      - data_network
+      - app_network
 
-    expose:
-      - "11434"
+    ports:
+      - "${FRONTEND_PORT:-8080}:80"
 
     security_opt:
       - no-new-privileges:true
 
+    read_only: true
+
+    tmpfs:
+      - /tmp:size=32m,noexec,nosuid
+      - /var/cache/nginx:size=32m
+      - /var/run:size=8m
+
     deploy:
       resources:
         limits:
-          cpus: "4.0"
-          memory: 8G
-        reservations:
           cpus: "1.0"
-          memory: 2G
+          memory: 256M
+        reservations:
+          cpus: "0.1"
+          memory: 64M
 
-
-  # ==========================================================
-  # FRONTEND
-  # ==========================================================
-
-  # frontend:
-  #   build:
-  #     context: ./frontend
-  #     dockerfile: Dockerfile
-  #     target: production
-  #
-  #   restart: unless-stopped
-  #
-  #   depends_on:
-  #     backend:
-  #       condition: service_healthy
-  #
-  #   networks:
-  #     - app_network
-  #
-  #   expose:
-  #     - "80"
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1:80/"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
 
 
 # ============================================================
@@ -249,10 +261,14 @@ networks:
   app_network:
     driver: bridge
 
+  # Backend can reach PostgreSQL.
+  # Data service is NOT attached to this network.
   db_read_network:
     driver: bridge
     internal: true
 
+  # Data service can reach PostgreSQL.
+  # Backend is NOT attached to this network.
   data_network:
     driver: bridge
     internal: true
@@ -263,9 +279,5 @@ networks:
 # ============================================================
 
 volumes:
-
   postgres_data:
-    driver: local
-
-  ollama_data:
     driver: local

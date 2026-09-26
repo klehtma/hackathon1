@@ -15,9 +15,10 @@ RUN npm ci
 # Copy source and build
 COPY . .
 
-# Backend URL to bake into the static build.
-# Override at build time with: --build-arg VITE_API_BASE_URL=https://your-api
-ARG VITE_API_BASE_URL=http://localhost:3000
+# Backend URL to bake into the static build. Left empty (relative) by
+# default because nginx.conf proxies /api/* to the backend container —
+# only override this if the backend is hosted on a different origin.
+ARG VITE_API_BASE_URL=""
 ENV VITE_API_BASE_URL=${VITE_API_BASE_URL}
 
 RUN npm run build

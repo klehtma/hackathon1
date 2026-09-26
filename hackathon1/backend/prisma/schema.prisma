@@ -1,0 +1,42 @@
+// Prisma schema for the arb-finder backend.
+// Mirrors the frontend's ArbOpportunity / ArbLeg types (frontend/src/types.ts).
+// NOTE: this is a separate schema from data_service's SQLAlchemy models
+// (Product/User/Category/etc.) — those belong to an unrelated template and
+// are not used by this API. data_service should be updated to write into
+// these tables (or call this API) once it produces real arb data.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model ArbOpportunity {
+  id                        String   @id @default(cuid())
+  matchId                   String   @unique
+  homeTeam                  String
+  awayTeam                  String
+  commenceTime              DateTime
+  totalImpliedProbability   Float
+  profitPercent             Float
+  detectedAt                DateTime @default(now())
+  sportKey                  String?
+
+  legs                      ArbLeg[]
+
+  @@index([detectedAt])
+}
+
+model ArbLeg {
+  id             String         @id @default(cuid())
+  outcomeName    String
+  bookmaker      String
+  price          Float
+  stakePercent   Float
+
+  opportunity    ArbOpportunity @relation(fields: [opportunityId], references: [id], onDelete: Cascade)
+  opportunityId  String
+}
