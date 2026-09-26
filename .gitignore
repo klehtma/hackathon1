@@ -1,0 +1,23 @@
+# Secrets — never commit real credentials
+.env
+.env.local
+
+# Dependencies (installed fresh in each Docker build / by npm install)
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+**/dist/
+
+# Python
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# OS/editor cruft
+.DS_Store
+Thumbs.db
