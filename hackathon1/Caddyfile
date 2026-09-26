@@ -1,0 +1,6 @@
+arbetter.duckdns.org {
+    basicauth {
+        admin $2a$14$ulvZMLCkcVlT0UsSYIYKpu.K3yRHD6mf0tjtuKb5L6ZoTml/DTwdu
+    }
+    reverse_proxy frontend:80
+}
