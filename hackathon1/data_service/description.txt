@@ -1,1 +1,0 @@
-For each target -> get_urls reads -> competitions to get_urls_data through (specified api endpoints)
