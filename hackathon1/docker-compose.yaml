@@ -85,6 +85,7 @@ services:
     env_file:
       - .env
     environment:
+      PYTHONUNBUFFERED: "1"
       DATA_SERVICE_DB_USER: ${DATA_SERVICE_DB_USER}
       DATA_SERVICE_DB_PASSWORD: ${DATA_SERVICE_DB_PASSWORD}
       POSTGRES_DB: ${POSTGRES_DB}
