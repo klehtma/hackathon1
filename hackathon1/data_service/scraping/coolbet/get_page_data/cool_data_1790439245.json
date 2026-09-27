@@ -1,0 +1,2941 @@
+{
+    "fo": {
+        "1650589832": {
+            "outcome_id": 1650589832,
+            "odds_id": "b493be8b-b8f2-4b08-a105-18d717faf3bd",
+            "status": "OPEN",
+            "market_id": 650736956,
+            "value": 1.718527,
+            "match_id": 5967251
+        },
+        "1650589833": {
+            "outcome_id": 1650589833,
+            "odds_id": "5de8c081-a0bf-4135-8e11-3ecad6da7fd0",
+            "status": "OPEN",
+            "market_id": 650736956,
+            "value": 2.159332,
+            "match_id": 5967251
+        },
+        "1650589895": {
+            "outcome_id": 1650589895,
+            "odds_id": "36c98f7a-b6d4-4c10-a830-2859896013a6",
+            "status": "OPEN",
+            "market_id": 650736973,
+            "value": 1.161051,
+            "match_id": 5967251
+        },
+        "1650589896": {
+            "outcome_id": 1650589896,
+            "odds_id": "35a44f98-41c6-40d7-b786-9d1af5e141e9",
+            "status": "OPEN",
+            "market_id": 650736973,
+            "value": 5.9,
+            "match_id": 5967251
+        },
+        "1650590296": {
+            "outcome_id": 1650590296,
+            "odds_id": "a8e844d0-9588-4bd0-a896-6f8074491b95",
+            "status": "OPEN",
+            "market_id": 650737087,
+            "value": 1.156851,
+            "match_id": 5967251
+        },
+        "1650590297": {
+            "outcome_id": 1650590297,
+            "odds_id": "dea67ade-4e6a-47d0-8fd9-a62e351c5f8d",
+            "status": "OPEN",
+            "market_id": 650737087,
+            "value": 5.5,
+            "match_id": 5967251
+        },
+        "1650590298": {
+            "outcome_id": 1650590298,
+            "odds_id": "a9804905-e14a-49f5-9a66-c94a21f643a6",
+            "status": "OPEN",
+            "market_id": 650737088,
+            "value": 1.02438,
+            "match_id": 5967251
+        },
+        "1650590299": {
+            "outcome_id": 1650590299,
+            "odds_id": "7a2cca33-d57d-4446-98ef-53ae3577d9c8",
+            "status": "OPEN",
+            "market_id": 650737088,
+            "value": 14.5,
+            "match_id": 5967251
+        },
+        "1650590300": {
+            "outcome_id": 1650590300,
+            "odds_id": "871dc45a-4510-4b91-8bef-6151aa2ff28d",
+            "status": "OPEN",
+            "market_id": 650737089,
+            "value": 1.779651,
+            "match_id": 5967251
+        },
+        "1650590301": {
+            "outcome_id": 1650590301,
+            "odds_id": "e8fa5274-cb2a-4d17-9481-1b1fd7c1334c",
+            "status": "OPEN",
+            "market_id": 650737089,
+            "value": 2.113753,
+            "match_id": 5967251
+        },
+        "1650590302": {
+            "outcome_id": 1650590302,
+            "odds_id": "6b2e109a-90b9-4c85-b6fd-3cb79a6f1588",
+            "status": "OPEN",
+            "market_id": 650737090,
+            "value": 2.236658,
+            "match_id": 5967251
+        },
+        "1650590303": {
+            "outcome_id": 1650590303,
+            "odds_id": "eb3bb560-8150-41ee-b66a-95f8ab59ccc4",
+            "status": "OPEN",
+            "market_id": 650737090,
+            "value": 1.672508,
+            "match_id": 5967251
+        },
+        "1650590304": {
+            "outcome_id": 1650590304,
+            "odds_id": "6653813d-60db-4f62-9dc2-18ac7e43c588",
+            "status": "OPEN",
+            "market_id": 650737091,
+            "value": 1.42,
+            "match_id": 5967251
+        },
+        "1650590305": {
+            "outcome_id": 1650590305,
+            "odds_id": "043a6f90-47f6-4e7a-978c-e7cfb0ffd937",
+            "status": "OPEN",
+            "market_id": 650737091,
+            "value": 5,
+            "match_id": 5967251
+        },
+        "1650590306": {
+            "outcome_id": 1650590306,
+            "odds_id": "e75cf5ff-ad55-4e4f-9b3b-c59e910332b7",
+            "status": "OPEN",
+            "market_id": 650737091,
+            "value": 7.75,
+            "match_id": 5967251
+        },
+        "1650590307": {
+            "outcome_id": 1650590307,
+            "odds_id": "4e146a4d-78b1-4797-9801-560b77f4fd71",
+            "status": "OPEN",
+            "market_id": 650737092,
+            "value": 3.85,
+            "match_id": 5967251
+        },
+        "1650590308": {
+            "outcome_id": 1650590308,
+            "odds_id": "4eba052c-6df4-4e59-ade4-42fcf84ba9ba",
+            "status": "OPEN",
+            "market_id": 650737092,
+            "value": 1.274956,
+            "match_id": 5967251
+        },
+        "1650590309": {
+            "outcome_id": 1650590309,
+            "odds_id": "23d99500-1016-4dd5-abb8-d4055fa60bfe",
+            "status": "OPEN",
+            "market_id": 650737093,
+            "value": 6.4,
+            "match_id": 5967251
+        },
+        "1650590310": {
+            "outcome_id": 1650590310,
+            "odds_id": "7e19c8ac-0445-4164-8a8b-185cef4e3c9a",
+            "status": "OPEN",
+            "market_id": 650737093,
+            "value": 1.126449,
+            "match_id": 5967251
+        },
+        "1650590311": {
+            "outcome_id": 1650590311,
+            "odds_id": "3389c40b-a360-4d65-8b19-ccbe52c89ece",
+            "status": "OPEN",
+            "market_id": 650737094,
+            "value": 1.49886,
+            "match_id": 5967251
+        },
+        "1650590312": {
+            "outcome_id": 1650590312,
+            "odds_id": "fe8a761d-f563-4c63-9f30-518f9412951c",
+            "status": "OPEN",
+            "market_id": 650737094,
+            "value": 2.646718,
+            "match_id": 5967251
+        },
+        "1650590313": {
+            "outcome_id": 1650590313,
+            "odds_id": "3f8053e4-ec1c-420a-87b8-0c4e27676b54",
+            "status": "OPEN",
+            "market_id": 650737095,
+            "value": 1.211279,
+            "match_id": 5967251
+        },
+        "1650590314": {
+            "outcome_id": 1650590314,
+            "odds_id": "15fd14b0-2083-4053-a1a2-5fd0866e8a7a",
+            "status": "OPEN",
+            "market_id": 650737095,
+            "value": 4.55,
+            "match_id": 5967251
+        },
+        "1650590315": {
+            "outcome_id": 1650590315,
+            "odds_id": "d886495d-0384-4c78-8965-bfeed7ea9ecb",
+            "status": "OPEN",
+            "market_id": 650737096,
+            "value": 7.1,
+            "match_id": 5967251
+        },
+        "1650590316": {
+            "outcome_id": 1650590316,
+            "odds_id": "c8c363a9-b303-4c20-8af9-6b909bc44e52",
+            "status": "OPEN",
+            "market_id": 650737096,
+            "value": 1.106378,
+            "match_id": 5967251
+        },
+        "1650590317": {
+            "outcome_id": 1650590317,
+            "odds_id": "9dc4cb7d-b8e9-4d03-907d-a15b01ed1c40",
+            "status": "OPEN",
+            "market_id": 650737097,
+            "value": 3.15,
+            "match_id": 5967251
+        },
+        "1650590318": {
+            "outcome_id": 1650590318,
+            "odds_id": "b2eac0dd-4814-41d7-bfd1-9091406c0ef9",
+            "status": "OPEN",
+            "market_id": 650737097,
+            "value": 1.370305,
+            "match_id": 5967251
+        },
+        "1650591223": {
+            "outcome_id": 1650591223,
+            "odds_id": "b28035fb-eaa2-436e-a48e-21f6afed4610",
+            "status": "OPEN",
+            "market_id": 650737398,
+            "value": 1.116532,
+            "match_id": 5967251
+        },
+        "1650591224": {
+            "outcome_id": 1650591224,
+            "odds_id": "20c90aa0-cb42-478f-a4eb-47adc9340395",
+            "status": "OPEN",
+            "market_id": 650737398,
+            "value": 3.1,
+            "match_id": 5967251
+        },
+        "1650591225": {
+            "outcome_id": 1650591225,
+            "odds_id": "0e4f8f9c-b66d-4b71-a45c-ca8e1344d16a",
+            "status": "OPEN",
+            "market_id": 650737398,
+            "value": 1.211573,
+            "match_id": 5967251
+        },
+        "1650591262": {
+            "outcome_id": 1650591262,
+            "odds_id": "37ad70d3-d4a7-44ec-823c-90bc1caf986d",
+            "status": "OPEN",
+            "market_id": 650737404,
+            "value": 3.45,
+            "match_id": 5967251
+        },
+        "1650591263": {
+            "outcome_id": 1650591263,
+            "odds_id": "1ca9cb4c-d1ea-49e0-afdb-00bea1ad908a",
+            "status": "OPEN",
+            "market_id": 650737404,
+            "value": 4.6,
+            "match_id": 5967251
+        },
+        "1650591264": {
+            "outcome_id": 1650591264,
+            "odds_id": "1126d875-ee7d-4c03-87b4-8eaff32339a8",
+            "status": "OPEN",
+            "market_id": 650737404,
+            "value": 1.765966,
+            "match_id": 5967251
+        },
+        "1650591265": {
+            "outcome_id": 1650591265,
+            "odds_id": "286f4748-f65a-4770-9532-528081f0f3f7",
+            "status": "OPEN",
+            "market_id": 650737406,
+            "value": 2.067236,
+            "match_id": 5967251
+        },
+        "1650591266": {
+            "outcome_id": 1650591266,
+            "odds_id": "f957b379-f84b-496d-96a6-fe9996ef5993",
+            "status": "OPEN",
+            "market_id": 650737406,
+            "value": 4,
+            "match_id": 5967251
+        },
+        "1650591267": {
+            "outcome_id": 1650591267,
+            "odds_id": "0c174e0b-d33a-4068-afa3-6ff162722cc9",
+            "status": "OPEN",
+            "market_id": 650737406,
+            "value": 2.95,
+            "match_id": 5967251
+        },
+        "1650591268": {
+            "outcome_id": 1650591268,
+            "odds_id": "4ef97ac8-53d2-4faf-bc4a-339c479960cc",
+            "status": "OPEN",
+            "market_id": 650737407,
+            "value": 1.102206,
+            "match_id": 5967251
+        },
+        "1650591269": {
+            "outcome_id": 1650591269,
+            "odds_id": "c0166d45-9ea3-4412-9585-56f073c0ca3c",
+            "status": "OPEN",
+            "market_id": 650737407,
+            "value": 9.5,
+            "match_id": 5967251
+        },
+        "1650591270": {
+            "outcome_id": 1650591270,
+            "odds_id": "de0713bb-47f9-4ab2-a82f-77d63a9ec5cb",
+            "status": "OPEN",
+            "market_id": 650737407,
+            "value": 16,
+            "match_id": 5967251
+        },
+        "1650591271": {
+            "outcome_id": 1650591271,
+            "odds_id": "4a2b0ca0-0888-4fa5-b0bc-93b37373d523",
+            "status": "OPEN",
+            "market_id": 650737408,
+            "value": 23.5,
+            "match_id": 5967251
+        },
+        "1650591272": {
+            "outcome_id": 1650591272,
+            "odds_id": "6a090427-ca37-4bd8-8cfa-4178f6b55930",
+            "status": "OPEN",
+            "market_id": 650737408,
+            "value": 17.5,
+            "match_id": 5967251
+        },
+        "1650591273": {
+            "outcome_id": 1650591273,
+            "odds_id": "a79d083b-157a-4212-81e0-efa9d81de63d",
+            "status": "OPEN",
+            "market_id": 650737408,
+            "value": 1.026535,
+            "match_id": 5967251
+        },
+        "1650591277": {
+            "outcome_id": 1650591277,
+            "odds_id": "0e7d05cd-c59b-402b-8a5f-baa5dc6aeab9",
+            "status": "OPEN",
+            "market_id": 650737410,
+            "value": 13,
+            "match_id": 5967251
+        },
+        "1650591278": {
+            "outcome_id": 1650591278,
+            "odds_id": "dd4d1a0d-effd-46c5-9c24-063e47af11f0",
+            "status": "OPEN",
+            "market_id": 650737410,
+            "value": 9.9,
+            "match_id": 5967251
+        },
+        "1650591279": {
+            "outcome_id": 1650591279,
+            "odds_id": "6e0c7b22-7676-41df-a000-50df2f7832fd",
+            "status": "OPEN",
+            "market_id": 650737410,
+            "value": 1.112961,
+            "match_id": 5967251
+        },
+        "1650591294": {
+            "outcome_id": 1650591294,
+            "odds_id": "e868e82d-3990-487f-8688-7f3ca46e77c0",
+            "status": "OPEN",
+            "market_id": 650737418,
+            "value": 6.6,
+            "match_id": 5967251
+        },
+        "1650591295": {
+            "outcome_id": 1650591295,
+            "odds_id": "5d63434e-be83-474d-9eef-e713e132811f",
+            "status": "OPEN",
+            "market_id": 650737418,
+            "value": 6.1,
+            "match_id": 5967251
+        },
+        "1650591296": {
+            "outcome_id": 1650591296,
+            "odds_id": "25885636-95d1-4b0c-a2e0-1c5546d48cda",
+            "status": "OPEN",
+            "market_id": 650737418,
+            "value": 1.316432,
+            "match_id": 5967251
+        },
+        "1650591685": {
+            "outcome_id": 1650591685,
+            "odds_id": "c80e4643-38ae-4fb3-b18d-e164f484a708",
+            "status": "OPEN",
+            "market_id": 650737592,
+            "value": 1.104696,
+            "match_id": 5967251
+        },
+        "1650591686": {
+            "outcome_id": 1650591686,
+            "odds_id": "6d7bdb5a-7856-419a-858d-e04393f18706",
+            "status": "OPEN",
+            "market_id": 650737592,
+            "value": 6.8,
+            "match_id": 5967251
+        },
+        "1650591687": {
+            "outcome_id": 1650591687,
+            "odds_id": "cc3e30c5-b536-4d8b-8f45-bb126c3d7bdf",
+            "status": "OPEN",
+            "market_id": 650737593,
+            "value": 3.65,
+            "match_id": 5967251
+        },
+        "1650591688": {
+            "outcome_id": 1650591688,
+            "odds_id": "f4590af2-a988-47f6-b330-38a44fd73fb2",
+            "status": "OPEN",
+            "market_id": 650737593,
+            "value": 1.324199,
+            "match_id": 5967251
+        },
+        "1650591715": {
+            "outcome_id": 1650591715,
+            "odds_id": "adf00fec-723e-4150-bdff-a7d6f4ec25ec",
+            "status": "OPEN",
+            "market_id": 650737598,
+            "value": 2.9,
+            "match_id": 5967251
+        },
+        "1650591716": {
+            "outcome_id": 1650591716,
+            "odds_id": "39e38e39-f396-42cf-b0f7-af5c8e5bf1dd",
+            "status": "OPEN",
+            "market_id": 650737598,
+            "value": 1.457696,
+            "match_id": 5967251
+        },
+        "1650591717": {
+            "outcome_id": 1650591717,
+            "odds_id": "f0a689cd-6d20-4b0f-9ebf-5ecfadf45e7f",
+            "status": "OPEN",
+            "market_id": 650737599,
+            "value": 2.125597,
+            "match_id": 5967251
+        },
+        "1650591718": {
+            "outcome_id": 1650591718,
+            "odds_id": "ff84fc13-8498-4f8f-a7fc-8f7b2408ac13",
+            "status": "OPEN",
+            "market_id": 650737599,
+            "value": 1.78717,
+            "match_id": 5967251
+        },
+        "1650591719": {
+            "outcome_id": 1650591719,
+            "odds_id": "8f3942a7-2129-4fa8-94dc-f24edf3ea08f",
+            "status": "OPEN",
+            "market_id": 650737600,
+            "value": 6.2,
+            "match_id": 5967251
+        },
+        "1650591720": {
+            "outcome_id": 1650591720,
+            "odds_id": "14b8f422-986b-427e-9ad3-2f488291797c",
+            "status": "OPEN",
+            "market_id": 650737600,
+            "value": 1.151936,
+            "match_id": 5967251
+        },
+        "1650591721": {
+            "outcome_id": 1650591721,
+            "odds_id": "926f9975-ea80-4a2f-946b-d8d194afcada",
+            "status": "OPEN",
+            "market_id": 650737601,
+            "value": 14.5,
+            "match_id": 5967251
+        },
+        "1650591722": {
+            "outcome_id": 1650591722,
+            "odds_id": "b600b428-6203-4b46-86e5-126352820449",
+            "status": "OPEN",
+            "market_id": 650737601,
+            "value": 1.041678,
+            "match_id": 5967251
+        },
+        "1650591732": {
+            "outcome_id": 1650591732,
+            "odds_id": "b6b41500-8191-4ef6-b3f0-21ed077144e7",
+            "status": "OPEN",
+            "market_id": 650737604,
+            "value": 7.4,
+            "match_id": 5967251
+        },
+        "1650591733": {
+            "outcome_id": 1650591733,
+            "odds_id": "0ebfb8d5-3c7b-4ee5-aa74-636e9d8d0411",
+            "status": "OPEN",
+            "market_id": 650737604,
+            "value": 1.118167,
+            "match_id": 5967251
+        },
+        "1650591741": {
+            "outcome_id": 1650591741,
+            "odds_id": "500b941d-d34f-436d-9f43-d0e6263aa72b",
+            "status": "OPEN",
+            "market_id": 650737625,
+            "value": 7.6,
+            "match_id": 5967251
+        },
+        "1650591742": {
+            "outcome_id": 1650591742,
+            "odds_id": "219ec9e8-5a68-4a7e-abe8-74d79961f138",
+            "status": "OPEN",
+            "market_id": 650737625,
+            "value": 1.086595,
+            "match_id": 5967251
+        },
+        "1650591746": {
+            "outcome_id": 1650591746,
+            "odds_id": "7b413fd5-5da1-42d6-9d07-1b83988f654c",
+            "status": "OPEN",
+            "market_id": 650737626,
+            "value": 16,
+            "match_id": 5967251
+        },
+        "1650591747": {
+            "outcome_id": 1650591747,
+            "odds_id": "74f9e908-ecf4-4388-9aa0-08a21a6e5803",
+            "status": "OPEN",
+            "market_id": 650737626,
+            "value": 1.010225,
+            "match_id": 5967251
+        },
+        "1650591787": {
+            "outcome_id": 1650591787,
+            "odds_id": "0e4b24b4-5e98-44b7-a699-2c1976c79c32",
+            "status": "OPEN",
+            "market_id": 650737631,
+            "value": 2.222652,
+            "match_id": 5967251
+        },
+        "1650591788": {
+            "outcome_id": 1650591788,
+            "odds_id": "86d460f5-ea3c-4dbd-aea9-0df96cf83956",
+            "status": "OPEN",
+            "market_id": 650737631,
+            "value": 1.659511,
+            "match_id": 5967251
+        },
+        "1650591789": {
+            "outcome_id": 1650591789,
+            "odds_id": "d908bcfa-13c1-47da-ad6b-33f1f3976847",
+            "status": "OPEN",
+            "market_id": 650737632,
+            "value": 1.648918,
+            "match_id": 5967251
+        },
+        "1650591790": {
+            "outcome_id": 1650591790,
+            "odds_id": "57bf58eb-65c1-4964-8782-fb4c3169eae0",
+            "status": "OPEN",
+            "market_id": 650737632,
+            "value": 2.361043,
+            "match_id": 5967251
+        },
+        "1650591791": {
+            "outcome_id": 1650591791,
+            "odds_id": "56af05cd-00e4-484f-8083-48c2eeac1e96",
+            "status": "OPEN",
+            "market_id": 650737633,
+            "value": 1.072576,
+            "match_id": 5967251
+        },
+        "1650591792": {
+            "outcome_id": 1650591792,
+            "odds_id": "a63248d3-a861-48ec-a5f8-8d04c41c8e12",
+            "status": "OPEN",
+            "market_id": 650737633,
+            "value": 8.3,
+            "match_id": 5967251
+        },
+        "1650591801": {
+            "outcome_id": 1650591801,
+            "odds_id": "cc962d24-427f-4a70-9bd4-a583cfccec19",
+            "status": "OPEN",
+            "market_id": 650737634,
+            "value": 1.67349,
+            "match_id": 5967251
+        },
+        "1650591802": {
+            "outcome_id": 1650591802,
+            "odds_id": "29828f46-07a4-4bf6-b870-eb8dfc7e2b3e",
+            "status": "OPEN",
+            "market_id": 650737634,
+            "value": 2.198062,
+            "match_id": 5967251
+        },
+        "1650591807": {
+            "outcome_id": 1650591807,
+            "odds_id": "9ebf1136-5063-4273-a869-40d858210a46",
+            "status": "OPEN",
+            "market_id": 650737636,
+            "value": 3.35,
+            "match_id": 5967251
+        },
+        "1650591808": {
+            "outcome_id": 1650591808,
+            "odds_id": "e4524d15-dc1d-45af-ad54-31d6a924d36e",
+            "status": "OPEN",
+            "market_id": 650737636,
+            "value": 1.328594,
+            "match_id": 5967251
+        },
+        "1650591809": {
+            "outcome_id": 1650591809,
+            "odds_id": "52501901-21d8-4f9e-b837-381c272d2e0d",
+            "status": "OPEN",
+            "market_id": 650737637,
+            "value": 1.41175,
+            "match_id": 5967251
+        },
+        "1650591810": {
+            "outcome_id": 1650591810,
+            "odds_id": "8fa5906c-c09c-4e75-86cf-d1a73374170c",
+            "status": "OPEN",
+            "market_id": 650737637,
+            "value": 2.9,
+            "match_id": 5967251
+        },
+        "1650591811": {
+            "outcome_id": 1650591811,
+            "odds_id": "6a582a11-699e-4891-a186-ca204f2e7579",
+            "status": "OPEN",
+            "market_id": 650737638,
+            "value": 4.1,
+            "match_id": 5967251
+        },
+        "1650591812": {
+            "outcome_id": 1650591812,
+            "odds_id": "d6ec680d-be87-4aed-a848-448ba022541d",
+            "status": "OPEN",
+            "market_id": 650737638,
+            "value": 1.235789,
+            "match_id": 5967251
+        },
+        "1739703674": {
+            "outcome_id": 1739703674,
+            "odds_id": "48dc07ac-c113-434f-bb00-f03491666c4f",
+            "status": "OPEN",
+            "market_id": 681480013,
+            "value": 13,
+            "match_id": 5967251
+        },
+        "1739703675": {
+            "outcome_id": 1739703675,
+            "odds_id": "c758c70a-30d4-4c0f-9b32-5e0297d4bb22",
+            "status": "OPEN",
+            "market_id": 681480013,
+            "value": 1.033824,
+            "match_id": 5967251
+        },
+        "1739755945": {
+            "outcome_id": 1739755945,
+            "odds_id": "4785a0f7-f7e6-4e98-b55e-9e0f4e193b24",
+            "status": "OPEN",
+            "market_id": 681498314,
+            "value": 1.394118,
+            "match_id": 5967251
+        },
+        "1739755946": {
+            "outcome_id": 1739755946,
+            "odds_id": "d3170ae3-9197-4827-9dbf-f8011b97f65e",
+            "status": "OPEN",
+            "market_id": 681498314,
+            "value": 5,
+            "match_id": 5967251
+        },
+        "1739755947": {
+            "outcome_id": 1739755947,
+            "odds_id": "10f8d3bf-beef-49f1-ba6f-cb0761a48f80",
+            "status": "OPEN",
+            "market_id": 681498314,
+            "value": 7.00768,
+            "match_id": 5967251
+        },
+        "1739757068": {
+            "outcome_id": 1739757068,
+            "odds_id": "4f598ab4-0807-4e89-80b6-4cc3ea1a173b",
+            "status": "OPEN",
+            "market_id": 681498887,
+            "value": 1,
+            "match_id": 5967251
+        },
+        "1739757069": {
+            "outcome_id": 1739757069,
+            "odds_id": "a5e7695a-cbe8-4b83-ba23-741ba57ec1a1",
+            "status": "OPEN",
+            "market_id": 681498887,
+            "value": 83,
+            "match_id": 5967251
+        },
+        "1739757070": {
+            "outcome_id": 1739757070,
+            "odds_id": "f95297f8-cffe-477a-850c-6a2832980c98",
+            "status": "OPEN",
+            "market_id": 681498888,
+            "value": 1,
+            "match_id": 5967251
+        },
+        "1739757073": {
+            "outcome_id": 1739757073,
+            "odds_id": "5880a945-bc2c-4c48-be63-bb9f0ec9de10",
+            "status": "OPEN",
+            "market_id": 681498888,
+            "value": 58,
+            "match_id": 5967251
+        },
+        "1739757076": {
+            "outcome_id": 1739757076,
+            "odds_id": "49d246ac-af98-49b0-841c-ca1e91ba9b01",
+            "status": "OPEN",
+            "market_id": 681498891,
+            "value": 1,
+            "match_id": 5967251
+        },
+        "1739757077": {
+            "outcome_id": 1739757077,
+            "odds_id": "917970f9-f376-4493-a730-c8b33aafbf52",
+            "status": "OPEN",
+            "market_id": 681498891,
+            "value": 49,
+            "match_id": 5967251
+        },
+        "1739757080": {
+            "outcome_id": 1739757080,
+            "odds_id": "f369cb0f-b96a-4865-b9da-b02cc99949ca",
+            "status": "OPEN",
+            "market_id": 681498893,
+            "value": 1,
+            "match_id": 5967251
+        },
+        "1739757081": {
+            "outcome_id": 1739757081,
+            "odds_id": "0bd07b51-4e3c-4fd5-8eb0-f28c137b2c17",
+            "status": "OPEN",
+            "market_id": 681498893,
+            "value": 39,
+            "match_id": 5967251
+        },
+        "1739757084": {
+            "outcome_id": 1739757084,
+            "odds_id": "79060705-df8b-4a57-9b44-658ca1393d55",
+            "status": "OPEN",
+            "market_id": 681498895,
+            "value": 1.019681,
+            "match_id": 5967251
+        },
+        "1739757085": {
+            "outcome_id": 1739757085,
+            "odds_id": "2dce316d-7cae-49ec-b672-fdb8b595a91b",
+            "status": "OPEN",
+            "market_id": 681498895,
+            "value": 20.5,
+            "match_id": 5967251
+        },
+        "1739757090": {
+            "outcome_id": 1739757090,
+            "odds_id": "0aebf0ce-1511-4da7-9bcf-357ccb215bea",
+            "status": "OPEN",
+            "market_id": 681498898,
+            "value": 1.029212,
+            "match_id": 5967251
+        },
+        "1739757091": {
+            "outcome_id": 1739757091,
+            "odds_id": "80386bc6-5f55-4832-b59f-75d6086b0e91",
+            "status": "OPEN",
+            "market_id": 681498898,
+            "value": 17,
+            "match_id": 5967251
+        }
+    },
+    "fo-line": {
+        "1650590296": {
+            "outcome_id": 1650590296,
+            "odds_id": "a8e844d0-9588-4bd0-a896-6f8074491b95",
+            "status": "OPEN",
+            "market_id": 650737087,
+            "value": 1.156851,
+            "match_id": 5967251
+        },
+        "1650590297": {
+            "outcome_id": 1650590297,
+            "odds_id": "dea67ade-4e6a-47d0-8fd9-a62e351c5f8d",
+            "status": "OPEN",
+            "market_id": 650737087,
+            "value": 5.5,
+            "match_id": 5967251
+        },
+        "1650590298": {
+            "outcome_id": 1650590298,
+            "odds_id": "a9804905-e14a-49f5-9a66-c94a21f643a6",
+            "status": "OPEN",
+            "market_id": 650737088,
+            "value": 1.02438,
+            "match_id": 5967251
+        },
+        "1650590299": {
+            "outcome_id": 1650590299,
+            "odds_id": "7a2cca33-d57d-4446-98ef-53ae3577d9c8",
+            "status": "OPEN",
+            "market_id": 650737088,
+            "value": 14.5,
+            "match_id": 5967251
+        },
+        "1650590300": {
+            "outcome_id": 1650590300,
+            "odds_id": "871dc45a-4510-4b91-8bef-6151aa2ff28d",
+            "status": "OPEN",
+            "market_id": 650737089,
+            "value": 1.779651,
+            "match_id": 5967251
+        },
+        "1650590301": {
+            "outcome_id": 1650590301,
+            "odds_id": "e8fa5274-cb2a-4d17-9481-1b1fd7c1334c",
+            "status": "OPEN",
+            "market_id": 650737089,
+            "value": 2.113753,
+            "match_id": 5967251
+        },
+        "1650590302": {
+            "outcome_id": 1650590302,
+            "odds_id": "6b2e109a-90b9-4c85-b6fd-3cb79a6f1588",
+            "status": "OPEN",
+            "market_id": 650737090,
+            "value": 2.236658,
+            "match_id": 5967251
+        },
+        "1650590303": {
+            "outcome_id": 1650590303,
+            "odds_id": "eb3bb560-8150-41ee-b66a-95f8ab59ccc4",
+            "status": "OPEN",
+            "market_id": 650737090,
+            "value": 1.672508,
+            "match_id": 5967251
+        },
+        "1650590304": {
+            "outcome_id": 1650590304,
+            "odds_id": "6653813d-60db-4f62-9dc2-18ac7e43c588",
+            "status": "OPEN",
+            "market_id": 650737091,
+            "value": 1.42,
+            "match_id": 5967251
+        },
+        "1650590305": {
+            "outcome_id": 1650590305,
+            "odds_id": "043a6f90-47f6-4e7a-978c-e7cfb0ffd937",
+            "status": "OPEN",
+            "market_id": 650737091,
+            "value": 5,
+            "match_id": 5967251
+        },
+        "1650590306": {
+            "outcome_id": 1650590306,
+            "odds_id": "e75cf5ff-ad55-4e4f-9b3b-c59e910332b7",
+            "status": "OPEN",
+            "market_id": 650737091,
+            "value": 7.75,
+            "match_id": 5967251
+        },
+        "1650590307": {
+            "outcome_id": 1650590307,
+            "odds_id": "4e146a4d-78b1-4797-9801-560b77f4fd71",
+            "status": "OPEN",
+            "market_id": 650737092,
+            "value": 3.85,
+            "match_id": 5967251
+        },
+        "1650590308": {
+            "outcome_id": 1650590308,
+            "odds_id": "4eba052c-6df4-4e59-ade4-42fcf84ba9ba",
+            "status": "OPEN",
+            "market_id": 650737092,
+            "value": 1.274956,
+            "match_id": 5967251
+        },
+        "1650590309": {
+            "outcome_id": 1650590309,
+            "odds_id": "23d99500-1016-4dd5-abb8-d4055fa60bfe",
+            "status": "OPEN",
+            "market_id": 650737093,
+            "value": 6.4,
+            "match_id": 5967251
+        },
+        "1650590310": {
+            "outcome_id": 1650590310,
+            "odds_id": "7e19c8ac-0445-4164-8a8b-185cef4e3c9a",
+            "status": "OPEN",
+            "market_id": 650737093,
+            "value": 1.126449,
+            "match_id": 5967251
+        },
+        "1650590311": {
+            "outcome_id": 1650590311,
+            "odds_id": "3389c40b-a360-4d65-8b19-ccbe52c89ece",
+            "status": "OPEN",
+            "market_id": 650737094,
+            "value": 1.49886,
+            "match_id": 5967251
+        },
+        "1650590312": {
+            "outcome_id": 1650590312,
+            "odds_id": "fe8a761d-f563-4c63-9f30-518f9412951c",
+            "status": "OPEN",
+            "market_id": 650737094,
+            "value": 2.646718,
+            "match_id": 5967251
+        },
+        "1650590313": {
+            "outcome_id": 1650590313,
+            "odds_id": "3f8053e4-ec1c-420a-87b8-0c4e27676b54",
+            "status": "OPEN",
+            "market_id": 650737095,
+            "value": 1.211279,
+            "match_id": 5967251
+        },
+        "1650590314": {
+            "outcome_id": 1650590314,
+            "odds_id": "15fd14b0-2083-4053-a1a2-5fd0866e8a7a",
+            "status": "OPEN",
+            "market_id": 650737095,
+            "value": 4.55,
+            "match_id": 5967251
+        },
+        "1650590315": {
+            "outcome_id": 1650590315,
+            "odds_id": "d886495d-0384-4c78-8965-bfeed7ea9ecb",
+            "status": "OPEN",
+            "market_id": 650737096,
+            "value": 7.1,
+            "match_id": 5967251
+        },
+        "1650590316": {
+            "outcome_id": 1650590316,
+            "odds_id": "c8c363a9-b303-4c20-8af9-6b909bc44e52",
+            "status": "OPEN",
+            "market_id": 650737096,
+            "value": 1.106378,
+            "match_id": 5967251
+        },
+        "1650590317": {
+            "outcome_id": 1650590317,
+            "odds_id": "9dc4cb7d-b8e9-4d03-907d-a15b01ed1c40",
+            "status": "OPEN",
+            "market_id": 650737097,
+            "value": 3.15,
+            "match_id": 5967251
+        },
+        "1650590318": {
+            "outcome_id": 1650590318,
+            "odds_id": "b2eac0dd-4814-41d7-bfd1-9091406c0ef9",
+            "status": "OPEN",
+            "market_id": 650737097,
+            "value": 1.370305,
+            "match_id": 5967251
+        },
+        "1650591687": {
+            "outcome_id": 1650591687,
+            "odds_id": "cc3e30c5-b536-4d8b-8f45-bb126c3d7bdf",
+            "status": "OPEN",
+            "market_id": 650737593,
+            "value": 3.65,
+            "match_id": 5967251
+        },
+        "1650591688": {
+            "outcome_id": 1650591688,
+            "odds_id": "f4590af2-a988-47f6-b330-38a44fd73fb2",
+            "status": "OPEN",
+            "market_id": 650737593,
+            "value": 1.324199,
+            "match_id": 5967251
+        },
+        "1650591715": {
+            "outcome_id": 1650591715,
+            "odds_id": "adf00fec-723e-4150-bdff-a7d6f4ec25ec",
+            "status": "OPEN",
+            "market_id": 650737598,
+            "value": 2.9,
+            "match_id": 5967251
+        },
+        "1650591716": {
+            "outcome_id": 1650591716,
+            "odds_id": "39e38e39-f396-42cf-b0f7-af5c8e5bf1dd",
+            "status": "OPEN",
+            "market_id": 650737598,
+            "value": 1.457696,
+            "match_id": 5967251
+        },
+        "1650591717": {
+            "outcome_id": 1650591717,
+            "odds_id": "f0a689cd-6d20-4b0f-9ebf-5ecfadf45e7f",
+            "status": "OPEN",
+            "market_id": 650737599,
+            "value": 2.125597,
+            "match_id": 5967251
+        },
+        "1650591718": {
+            "outcome_id": 1650591718,
+            "odds_id": "ff84fc13-8498-4f8f-a7fc-8f7b2408ac13",
+            "status": "OPEN",
+            "market_id": 650737599,
+            "value": 1.78717,
+            "match_id": 5967251
+        },
+        "1650591719": {
+            "outcome_id": 1650591719,
+            "odds_id": "8f3942a7-2129-4fa8-94dc-f24edf3ea08f",
+            "status": "OPEN",
+            "market_id": 650737600,
+            "value": 6.2,
+            "match_id": 5967251
+        },
+        "1650591720": {
+            "outcome_id": 1650591720,
+            "odds_id": "14b8f422-986b-427e-9ad3-2f488291797c",
+            "status": "OPEN",
+            "market_id": 650737600,
+            "value": 1.151936,
+            "match_id": 5967251
+        },
+        "1650591721": {
+            "outcome_id": 1650591721,
+            "odds_id": "926f9975-ea80-4a2f-946b-d8d194afcada",
+            "status": "OPEN",
+            "market_id": 650737601,
+            "value": 14.5,
+            "match_id": 5967251
+        },
+        "1650591722": {
+            "outcome_id": 1650591722,
+            "odds_id": "b600b428-6203-4b46-86e5-126352820449",
+            "status": "OPEN",
+            "market_id": 650737601,
+            "value": 1.041678,
+            "match_id": 5967251
+        },
+        "1650591732": {
+            "outcome_id": 1650591732,
+            "odds_id": "b6b41500-8191-4ef6-b3f0-21ed077144e7",
+            "status": "OPEN",
+            "market_id": 650737604,
+            "value": 7.4,
+            "match_id": 5967251
+        },
+        "1650591733": {
+            "outcome_id": 1650591733,
+            "odds_id": "0ebfb8d5-3c7b-4ee5-aa74-636e9d8d0411",
+            "status": "OPEN",
+            "market_id": 650737604,
+            "value": 1.118167,
+            "match_id": 5967251
+        },
+        "1650591789": {
+            "outcome_id": 1650591789,
+            "odds_id": "d908bcfa-13c1-47da-ad6b-33f1f3976847",
+            "status": "OPEN",
+            "market_id": 650737632,
+            "value": 1.648918,
+            "match_id": 5967251
+        },
+        "1650591790": {
+            "outcome_id": 1650591790,
+            "odds_id": "57bf58eb-65c1-4964-8782-fb4c3169eae0",
+            "status": "OPEN",
+            "market_id": 650737632,
+            "value": 2.361043,
+            "match_id": 5967251
+        },
+        "1739703674": {
+            "outcome_id": 1739703674,
+            "odds_id": "48dc07ac-c113-434f-bb00-f03491666c4f",
+            "status": "OPEN",
+            "market_id": 681480013,
+            "value": 13,
+            "match_id": 5967251
+        },
+        "1739703675": {
+            "outcome_id": 1739703675,
+            "odds_id": "c758c70a-30d4-4c0f-9b32-5e0297d4bb22",
+            "status": "OPEN",
+            "market_id": 681480013,
+            "value": 1.033824,
+            "match_id": 5967251
+        },
+        "1739757068": {
+            "outcome_id": 1739757068,
+            "odds_id": "4f598ab4-0807-4e89-80b6-4cc3ea1a173b",
+            "status": "OPEN",
+            "market_id": 681498887,
+            "value": 1,
+            "match_id": 5967251
+        },
+        "1739757069": {
+            "outcome_id": 1739757069,
+            "odds_id": "a5e7695a-cbe8-4b83-ba23-741ba57ec1a1",
+            "status": "OPEN",
+            "market_id": 681498887,
+            "value": 83,
+            "match_id": 5967251
+        },
+        "1739757070": {
+            "outcome_id": 1739757070,
+            "odds_id": "f95297f8-cffe-477a-850c-6a2832980c98",
+            "status": "OPEN",
+            "market_id": 681498888,
+            "value": 1,
+            "match_id": 5967251
+        },
+        "1739757073": {
+            "outcome_id": 1739757073,
+            "odds_id": "5880a945-bc2c-4c48-be63-bb9f0ec9de10",
+            "status": "OPEN",
+            "market_id": 681498888,
+            "value": 58,
+            "match_id": 5967251
+        },
+        "1739757076": {
+            "outcome_id": 1739757076,
+            "odds_id": "49d246ac-af98-49b0-841c-ca1e91ba9b01",
+            "status": "OPEN",
+            "market_id": 681498891,
+            "value": 1,
+            "match_id": 5967251
+        },
+        "1739757077": {
+            "outcome_id": 1739757077,
+            "odds_id": "917970f9-f376-4493-a730-c8b33aafbf52",
+            "status": "OPEN",
+            "market_id": 681498891,
+            "value": 49,
+            "match_id": 5967251
+        },
+        "1739757080": {
+            "outcome_id": 1739757080,
+            "odds_id": "f369cb0f-b96a-4865-b9da-b02cc99949ca",
+            "status": "OPEN",
+            "market_id": 681498893,
+            "value": 1,
+            "match_id": 5967251
+        },
+        "1739757081": {
+            "outcome_id": 1739757081,
+            "odds_id": "0bd07b51-4e3c-4fd5-8eb0-f28c137b2c17",
+            "status": "OPEN",
+            "market_id": 681498893,
+            "value": 39,
+            "match_id": 5967251
+        },
+        "1739757084": {
+            "outcome_id": 1739757084,
+            "odds_id": "79060705-df8b-4a57-9b44-658ca1393d55",
+            "status": "OPEN",
+            "market_id": 681498895,
+            "value": 1.019681,
+            "match_id": 5967251
+        },
+        "1739757085": {
+            "outcome_id": 1739757085,
+            "odds_id": "2dce316d-7cae-49ec-b672-fdb8b595a91b",
+            "status": "OPEN",
+            "market_id": 681498895,
+            "value": 20.5,
+            "match_id": 5967251
+        },
+        "1739757090": {
+            "outcome_id": 1739757090,
+            "odds_id": "0aebf0ce-1511-4da7-9bcf-357ccb215bea",
+            "status": "OPEN",
+            "market_id": 681498898,
+            "value": 1.029212,
+            "match_id": 5967251
+        },
+        "1739757091": {
+            "outcome_id": 1739757091,
+            "odds_id": "80386bc6-5f55-4832-b59f-75d6086b0e91",
+            "status": "OPEN",
+            "market_id": 681498898,
+            "value": 17,
+            "match_id": 5967251
+        }
+    },
+    "sidebets": {
+        "match": {
+            "sport_category_id": 62,
+            "match_start": "2026-09-27T18:45:00.000Z",
+            "home_team_name": "Germany",
+            "away_team_name": "Greece",
+            "home_team_short_name": null,
+            "away_team_short_name": null,
+            "home_team_rotation_number": null,
+            "away_team_rotation_number": null,
+            "layout": "EUROPEAN",
+            "betbuilder_id": 13596777
+        },
+        "foGroups": [
+            {
+                "id": 1,
+                "name": "Winner",
+                "position": 1
+            },
+            {
+                "id": 2,
+                "name": "Totals",
+                "position": 2
+            },
+            {
+                "id": 337,
+                "name": "Early Win",
+                "position": 5
+            },
+            {
+                "id": 257,
+                "name": "Mixed",
+                "position": 18
+            },
+            {
+                "id": 255,
+                "name": "1st Half",
+                "position": 33
+            },
+            {
+                "id": 256,
+                "name": "2nd Half",
+                "position": 65
+            },
+            {
+                "id": 5,
+                "name": "Player Goals",
+                "position": 75
+            },
+            {
+                "id": 45,
+                "name": "Player Specials",
+                "position": 87
+            },
+            {
+                "id": 17,
+                "name": "Corners",
+                "position": 133
+            },
+            {
+                "id": 15,
+                "name": "First/Last/Any Goalscorers",
+                "position": 177
+            }
+        ],
+        "markets": [
+            {
+                "market_type_id": 81,
+                "sequence": null,
+                "view_type": "simple",
+                "result_keys": [
+                    "Germany",
+                    "Draw",
+                    "Greece"
+                ],
+                "fo_groups": [
+                    1
+                ],
+                "market_type_name": "Match Result (1X2)",
+                "placeholder_count": 0,
+                "markets": [
+                    {
+                        "id": 650737091,
+                        "name": "Match Result (1X2)",
+                        "line": 0,
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 81,
+                        "market_type_name": "Match Result (1X2)",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1650590304,
+                                "status": "OPEN",
+                                "result_key": "[Home]",
+                                "name": "Germany",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650590305,
+                                "status": "OPEN",
+                                "result_key": "Draw",
+                                "name": "Draw",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650590306,
+                                "status": "OPEN",
+                                "result_key": "[Away]",
+                                "name": "Greece",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": 0,
+                        "translatedName": "Match Result (1X2)"
+                    }
+                ],
+                "uniqueSequences": [],
+                "translatedName": "Match Result (1X2)"
+            },
+            {
+                "market_type_id": 818,
+                "sequence": null,
+                "view_type": "line",
+                "result_keys": [
+                    "Over",
+                    "Under"
+                ],
+                "fo_groups": [
+                    2
+                ],
+                "market_type_name": "Total Goals",
+                "placeholder_count": 0,
+                "markets": [
+                    {
+                        "id": 650737088,
+                        "name": "Total Goals Over / Under",
+                        "line": "1",
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 818,
+                        "market_type_name": "Total Goals",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1650590298,
+                                "status": "OPEN",
+                                "result_key": "Over",
+                                "name": "Over",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650590299,
+                                "status": "OPEN",
+                                "result_key": "Under",
+                                "name": "Under",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": 1,
+                        "translatedName": "Total Goals 1"
+                    },
+                    {
+                        "id": 650737087,
+                        "name": "Total Goals Over / Under",
+                        "line": "1.5",
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 818,
+                        "market_type_name": "Total Goals",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1650590296,
+                                "status": "OPEN",
+                                "result_key": "Over",
+                                "name": "Over",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650590297,
+                                "status": "OPEN",
+                                "result_key": "Under",
+                                "name": "Under",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": 1.5,
+                        "translatedName": "Total Goals 1.5"
+                    },
+                    {
+                        "id": 650737095,
+                        "name": "Total Goals Over / Under",
+                        "line": "2",
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 818,
+                        "market_type_name": "Total Goals",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1650590313,
+                                "status": "OPEN",
+                                "result_key": "Over",
+                                "name": "Over",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650590314,
+                                "status": "OPEN",
+                                "result_key": "Under",
+                                "name": "Under",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": 2,
+                        "translatedName": "Total Goals 2"
+                    },
+                    {
+                        "id": 650737094,
+                        "name": "Total Goals Over / Under",
+                        "line": "2.5",
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 818,
+                        "market_type_name": "Total Goals",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1650590311,
+                                "status": "OPEN",
+                                "result_key": "Over",
+                                "name": "Over",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650590312,
+                                "status": "OPEN",
+                                "result_key": "Under",
+                                "name": "Under",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": 2.5,
+                        "translatedName": "Total Goals 2.5"
+                    },
+                    {
+                        "id": 650737089,
+                        "name": "Total Goals Over / Under",
+                        "line": "3",
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 818,
+                        "market_type_name": "Total Goals",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1650590300,
+                                "status": "OPEN",
+                                "result_key": "Over",
+                                "name": "Over",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650590301,
+                                "status": "OPEN",
+                                "result_key": "Under",
+                                "name": "Under",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": 3,
+                        "translatedName": "Total Goals 3"
+                    },
+                    {
+                        "id": 650737090,
+                        "name": "Total Goals Over / Under",
+                        "line": "3.5",
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 818,
+                        "market_type_name": "Total Goals",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1650590302,
+                                "status": "OPEN",
+                                "result_key": "Over",
+                                "name": "Over",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650590303,
+                                "status": "OPEN",
+                                "result_key": "Under",
+                                "name": "Under",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": 3.5,
+                        "translatedName": "Total Goals 3.5"
+                    },
+                    {
+                        "id": 650737097,
+                        "name": "Total Goals Over / Under",
+                        "line": "4",
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 818,
+                        "market_type_name": "Total Goals",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1650590317,
+                                "status": "OPEN",
+                                "result_key": "Over",
+                                "name": "Over",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650590318,
+                                "status": "OPEN",
+                                "result_key": "Under",
+                                "name": "Under",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": 4,
+                        "translatedName": "Total Goals 4"
+                    },
+                    {
+                        "id": 650737092,
+                        "name": "Total Goals Over / Under",
+                        "line": "4.5",
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 818,
+                        "market_type_name": "Total Goals",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1650590307,
+                                "status": "OPEN",
+                                "result_key": "Over",
+                                "name": "Over",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650590308,
+                                "status": "OPEN",
+                                "result_key": "Under",
+                                "name": "Under",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": 4.5,
+                        "translatedName": "Total Goals 4.5"
+                    },
+                    {
+                        "id": 650737093,
+                        "name": "Total Goals Over / Under",
+                        "line": "5",
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 818,
+                        "market_type_name": "Total Goals",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1650590309,
+                                "status": "OPEN",
+                                "result_key": "Over",
+                                "name": "Over",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650590310,
+                                "status": "OPEN",
+                                "result_key": "Under",
+                                "name": "Under",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": 5,
+                        "translatedName": "Total Goals 5"
+                    },
+                    {
+                        "id": 650737096,
+                        "name": "Total Goals Over / Under",
+                        "line": "5.5",
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 818,
+                        "market_type_name": "Total Goals",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1650590315,
+                                "status": "OPEN",
+                                "result_key": "Over",
+                                "name": "Over",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650590316,
+                                "status": "OPEN",
+                                "result_key": "Under",
+                                "name": "Under",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": 5.5,
+                        "translatedName": "Total Goals 5.5"
+                    },
+                    {
+                        "id": 681480013,
+                        "name": "Total Goals Over / Under",
+                        "line": "6",
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 818,
+                        "market_type_name": "Total Goals",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1739703674,
+                                "status": "OPEN",
+                                "result_key": "Over",
+                                "name": "Over",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1739703675,
+                                "status": "OPEN",
+                                "result_key": "Under",
+                                "name": "Under",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": 6,
+                        "translatedName": "Total Goals 6"
+                    }
+                ],
+                "uniqueSequences": [],
+                "translatedName": "Total Goals"
+            },
+            {
+                "market_type_id": 1086,
+                "sequence": null,
+                "view_type": "line",
+                "result_keys": [
+                    "Germany",
+                    "Greece"
+                ],
+                "fo_groups": [
+                    1
+                ],
+                "market_type_name": "Asian Handicap",
+                "placeholder_count": 0,
+                "markets": [
+                    {
+                        "id": 650737601,
+                        "name": "Asian Handicap",
+                        "line": "0 - 4",
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 1086,
+                        "market_type_name": "Asian Handicap",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1650591721,
+                                "status": "OPEN",
+                                "result_key": "[Home]",
+                                "name": "Germany",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650591722,
+                                "status": "OPEN",
+                                "result_key": "[Away]",
+                                "name": "Greece",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": -4,
+                        "translatedName": "Asian Handicap 0 - 4"
+                    },
+                    {
+                        "id": 650737604,
+                        "name": "Asian Handicap",
+                        "line": "0 - 3.5",
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 1086,
+                        "market_type_name": "Asian Handicap",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1650591732,
+                                "status": "OPEN",
+                                "result_key": "[Home]",
+                                "name": "Germany",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650591733,
+                                "status": "OPEN",
+                                "result_key": "[Away]",
+                                "name": "Greece",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": -3.5,
+                        "translatedName": "Asian Handicap 0 - 3.5"
+                    },
+                    {
+                        "id": 650737600,
+                        "name": "Asian Handicap",
+                        "line": "0 - 3",
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 1086,
+                        "market_type_name": "Asian Handicap",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1650591719,
+                                "status": "OPEN",
+                                "result_key": "[Home]",
+                                "name": "Germany",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650591720,
+                                "status": "OPEN",
+                                "result_key": "[Away]",
+                                "name": "Greece",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": -3,
+                        "translatedName": "Asian Handicap 0 - 3"
+                    },
+                    {
+                        "id": 650737593,
+                        "name": "Asian Handicap",
+                        "line": "0 - 2.5",
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 1086,
+                        "market_type_name": "Asian Handicap",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1650591687,
+                                "status": "OPEN",
+                                "result_key": "[Home]",
+                                "name": "Germany",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650591688,
+                                "status": "OPEN",
+                                "result_key": "[Away]",
+                                "name": "Greece",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": -2.5,
+                        "translatedName": "Asian Handicap 0 - 2.5"
+                    },
+                    {
+                        "id": 650737598,
+                        "name": "Asian Handicap",
+                        "line": "0 - 2",
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 1086,
+                        "market_type_name": "Asian Handicap",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1650591715,
+                                "status": "OPEN",
+                                "result_key": "[Home]",
+                                "name": "Germany",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650591716,
+                                "status": "OPEN",
+                                "result_key": "[Away]",
+                                "name": "Greece",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": -2,
+                        "translatedName": "Asian Handicap 0 - 2"
+                    },
+                    {
+                        "id": 650737599,
+                        "name": "Asian Handicap",
+                        "line": "0 - 1.5",
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 1086,
+                        "market_type_name": "Asian Handicap",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1650591717,
+                                "status": "OPEN",
+                                "result_key": "[Home]",
+                                "name": "Germany",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650591718,
+                                "status": "OPEN",
+                                "result_key": "[Away]",
+                                "name": "Greece",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": -1.5,
+                        "translatedName": "Asian Handicap 0 - 1.5"
+                    },
+                    {
+                        "id": 650737632,
+                        "name": "Asian Handicap",
+                        "line": "0 - 1",
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 1086,
+                        "market_type_name": "Asian Handicap",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1650591789,
+                                "status": "OPEN",
+                                "result_key": "[Home]",
+                                "name": "Germany",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650591790,
+                                "status": "OPEN",
+                                "result_key": "[Away]",
+                                "name": "Greece",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": -1,
+                        "translatedName": "Asian Handicap 0 - 1"
+                    },
+                    {
+                        "id": 681498898,
+                        "name": "Asian Handicap",
+                        "line": "1 - 0",
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 1086,
+                        "market_type_name": "Asian Handicap",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1739757090,
+                                "status": "OPEN",
+                                "result_key": "[Home]",
+                                "name": "Germany",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1739757091,
+                                "status": "OPEN",
+                                "result_key": "[Away]",
+                                "name": "Greece",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": 1,
+                        "translatedName": "Asian Handicap 1 - 0"
+                    },
+                    {
+                        "id": 681498895,
+                        "name": "Asian Handicap",
+                        "line": "1.5 - 0",
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 1086,
+                        "market_type_name": "Asian Handicap",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1739757084,
+                                "status": "OPEN",
+                                "result_key": "[Home]",
+                                "name": "Germany",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1739757085,
+                                "status": "OPEN",
+                                "result_key": "[Away]",
+                                "name": "Greece",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": 1.5,
+                        "translatedName": "Asian Handicap 1.5 - 0"
+                    },
+                    {
+                        "id": 681498893,
+                        "name": "Asian Handicap",
+                        "line": "2 - 0",
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 1086,
+                        "market_type_name": "Asian Handicap",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1739757080,
+                                "status": "OPEN",
+                                "result_key": "[Home]",
+                                "name": "Germany",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1739757081,
+                                "status": "OPEN",
+                                "result_key": "[Away]",
+                                "name": "Greece",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": 2,
+                        "translatedName": "Asian Handicap 2 - 0"
+                    },
+                    {
+                        "id": 681498891,
+                        "name": "Asian Handicap",
+                        "line": "2.5 - 0",
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 1086,
+                        "market_type_name": "Asian Handicap",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1739757076,
+                                "status": "OPEN",
+                                "result_key": "[Home]",
+                                "name": "Germany",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1739757077,
+                                "status": "OPEN",
+                                "result_key": "[Away]",
+                                "name": "Greece",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": 2.5,
+                        "translatedName": "Asian Handicap 2.5 - 0"
+                    },
+                    {
+                        "id": 681498888,
+                        "name": "Asian Handicap",
+                        "line": "3 - 0",
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 1086,
+                        "market_type_name": "Asian Handicap",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1739757070,
+                                "status": "OPEN",
+                                "result_key": "[Home]",
+                                "name": "Germany",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1739757073,
+                                "status": "OPEN",
+                                "result_key": "[Away]",
+                                "name": "Greece",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": 3,
+                        "translatedName": "Asian Handicap 3 - 0"
+                    },
+                    {
+                        "id": 681498887,
+                        "name": "Asian Handicap",
+                        "line": "3.5 - 0",
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 1086,
+                        "market_type_name": "Asian Handicap",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1739757068,
+                                "status": "OPEN",
+                                "result_key": "[Home]",
+                                "name": "Germany",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1739757069,
+                                "status": "OPEN",
+                                "result_key": "[Away]",
+                                "name": "Greece",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": 3.5,
+                        "translatedName": "Asian Handicap 3.5 - 0"
+                    }
+                ],
+                "uniqueSequences": [],
+                "translatedName": "Asian Handicap"
+            },
+            {
+                "market_type_id": 1011,
+                "sequence": null,
+                "view_type": "line",
+                "result_keys": [
+                    "Germany",
+                    "Draw",
+                    "Greece"
+                ],
+                "fo_groups": [
+                    1
+                ],
+                "market_type_name": "Handicap (3 Way)",
+                "placeholder_count": 0,
+                "markets": [
+                    {
+                        "id": 650737408,
+                        "name": "Handicap (3 Way)",
+                        "line": "0 - 5",
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 1011,
+                        "market_type_name": "Handicap (3 Way)",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1650591271,
+                                "status": "OPEN",
+                                "result_key": "[Home]",
+                                "name": "Germany",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650591272,
+                                "status": "OPEN",
+                                "result_key": "Draw",
+                                "name": "Draw",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650591273,
+                                "status": "OPEN",
+                                "result_key": "[Away]",
+                                "name": "Greece",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": -5,
+                        "translatedName": "Handicap (3 Way) 0 - 5"
+                    },
+                    {
+                        "id": 650737410,
+                        "name": "Handicap (3 Way)",
+                        "line": "0 - 4",
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 1011,
+                        "market_type_name": "Handicap (3 Way)",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1650591277,
+                                "status": "OPEN",
+                                "result_key": "[Home]",
+                                "name": "Germany",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650591278,
+                                "status": "OPEN",
+                                "result_key": "Draw",
+                                "name": "Draw",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650591279,
+                                "status": "OPEN",
+                                "result_key": "[Away]",
+                                "name": "Greece",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": -4,
+                        "translatedName": "Handicap (3 Way) 0 - 4"
+                    },
+                    {
+                        "id": 650737418,
+                        "name": "Handicap (3 Way)",
+                        "line": "0 - 3",
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 1011,
+                        "market_type_name": "Handicap (3 Way)",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1650591294,
+                                "status": "OPEN",
+                                "result_key": "[Home]",
+                                "name": "Germany",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650591295,
+                                "status": "OPEN",
+                                "result_key": "Draw",
+                                "name": "Draw",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650591296,
+                                "status": "OPEN",
+                                "result_key": "[Away]",
+                                "name": "Greece",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": -3,
+                        "translatedName": "Handicap (3 Way) 0 - 3"
+                    },
+                    {
+                        "id": 650737404,
+                        "name": "Handicap (3 Way)",
+                        "line": "0 - 2",
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 1011,
+                        "market_type_name": "Handicap (3 Way)",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1650591262,
+                                "status": "OPEN",
+                                "result_key": "[Home]",
+                                "name": "Germany",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650591263,
+                                "status": "OPEN",
+                                "result_key": "Draw",
+                                "name": "Draw",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650591264,
+                                "status": "OPEN",
+                                "result_key": "[Away]",
+                                "name": "Greece",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": -2,
+                        "translatedName": "Handicap (3 Way) 0 - 2"
+                    },
+                    {
+                        "id": 650737406,
+                        "name": "Handicap (3 Way)",
+                        "line": "0 - 1",
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 1011,
+                        "market_type_name": "Handicap (3 Way)",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1650591265,
+                                "status": "OPEN",
+                                "result_key": "[Home]",
+                                "name": "Germany",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650591266,
+                                "status": "OPEN",
+                                "result_key": "Draw",
+                                "name": "Draw",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650591267,
+                                "status": "OPEN",
+                                "result_key": "[Away]",
+                                "name": "Greece",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": -1,
+                        "translatedName": "Handicap (3 Way) 0 - 1"
+                    },
+                    {
+                        "id": 650737407,
+                        "name": "Handicap (3 Way)",
+                        "line": "1 - 0",
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 1011,
+                        "market_type_name": "Handicap (3 Way)",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1650591268,
+                                "status": "OPEN",
+                                "result_key": "[Home]",
+                                "name": "Germany",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650591269,
+                                "status": "OPEN",
+                                "result_key": "Draw",
+                                "name": "Draw",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650591270,
+                                "status": "OPEN",
+                                "result_key": "[Away]",
+                                "name": "Greece",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": 1,
+                        "translatedName": "Handicap (3 Way) 1 - 0"
+                    }
+                ],
+                "uniqueSequences": [],
+                "translatedName": "Handicap (3 Way)"
+            },
+            {
+                "market_type_id": 13273,
+                "sequence": null,
+                "view_type": "generic",
+                "result_keys": [
+                    "Germany",
+                    "Draw",
+                    "Greece"
+                ],
+                "fo_groups": [
+                    1,
+                    337
+                ],
+                "market_type_name": "Early Win - Match Result (1X2)",
+                "placeholder_count": 0,
+                "markets": [
+                    {
+                        "id": 681498314,
+                        "name": "Early Win - Match Result (1X2)",
+                        "line": 0,
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 13273,
+                        "market_type_name": "Early Win - Match Result (1X2)",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1739755945,
+                                "status": "OPEN",
+                                "result_key": "[Home]",
+                                "name": "Germany",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1739755946,
+                                "status": "OPEN",
+                                "result_key": "Draw",
+                                "name": "Draw",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1739755947,
+                                "status": "OPEN",
+                                "result_key": "[Away]",
+                                "name": "Greece",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": 0,
+                        "translatedName": "Early Win - Match Result (1X2)"
+                    }
+                ],
+                "uniqueSequences": [],
+                "translatedName": "Early Win - Match Result (1X2)"
+            },
+            {
+                "market_type_id": 1377,
+                "sequence": null,
+                "view_type": "simple",
+                "result_keys": [
+                    "Yes",
+                    "No"
+                ],
+                "fo_groups": [
+                    1,
+                    2
+                ],
+                "market_type_name": "Both Teams To Score",
+                "placeholder_count": 0,
+                "markets": [
+                    {
+                        "id": 650736956,
+                        "name": "Both Teams To Score",
+                        "line": 0,
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 1377,
+                        "market_type_name": "Both Teams To Score",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1650589832,
+                                "status": "OPEN",
+                                "result_key": "Yes",
+                                "name": "Yes",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650589833,
+                                "status": "OPEN",
+                                "result_key": "No",
+                                "name": "No",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": 0,
+                        "translatedName": "Both Teams To Score"
+                    }
+                ],
+                "uniqueSequences": [],
+                "translatedName": "Both Teams To Score"
+            },
+            {
+                "market_type_id": 70,
+                "sequence": null,
+                "view_type": "simple",
+                "result_keys": [
+                    "Germany",
+                    "Greece"
+                ],
+                "fo_groups": [
+                    1
+                ],
+                "market_type_name": "Draw No Bet",
+                "placeholder_count": 0,
+                "markets": [
+                    {
+                        "id": 650736973,
+                        "name": "Draw No Bet",
+                        "line": 0,
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 70,
+                        "market_type_name": "Draw No Bet",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1650589895,
+                                "status": "OPEN",
+                                "result_key": "[Home]",
+                                "name": "Germany",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650589896,
+                                "status": "OPEN",
+                                "result_key": "[Away]",
+                                "name": "Greece",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": 0,
+                        "translatedName": "Draw No Bet"
+                    }
+                ],
+                "uniqueSequences": [],
+                "translatedName": "Draw No Bet"
+            },
+            {
+                "market_type_id": 1484,
+                "sequence": null,
+                "view_type": "simple",
+                "result_keys": [
+                    "Germany/Draw",
+                    "Greece/Draw",
+                    "Germany/Greece"
+                ],
+                "fo_groups": [
+                    1
+                ],
+                "market_type_name": "Double Chance",
+                "placeholder_count": 0,
+                "markets": [
+                    {
+                        "id": 650737398,
+                        "name": "Double Chance",
+                        "line": 0,
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 1484,
+                        "market_type_name": "Double Chance",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1650591223,
+                                "status": "OPEN",
+                                "result_key": "[Home]/Draw",
+                                "name": "Germany/Draw",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650591224,
+                                "status": "OPEN",
+                                "result_key": "[Away]/Draw",
+                                "name": "Greece/Draw",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650591225,
+                                "status": "OPEN",
+                                "result_key": "[Home]/[Away]",
+                                "name": "Germany/Greece",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": 0,
+                        "translatedName": "Double Chance"
+                    }
+                ],
+                "uniqueSequences": [],
+                "translatedName": "Double Chance"
+            },
+            {
+                "market_type_id": 1551,
+                "sequence": null,
+                "view_type": "line",
+                "result_keys": [
+                    "Over",
+                    "Under"
+                ],
+                "fo_groups": [
+                    2
+                ],
+                "market_type_name": "[Home] Total Goals",
+                "placeholder_count": 0,
+                "markets": [
+                    {
+                        "id": 650737633,
+                        "name": "[Home] Total Goals",
+                        "line": "0.5",
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 1551,
+                        "market_type_name": "[Home] Total Goals",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1650591791,
+                                "status": "OPEN",
+                                "result_key": "Over",
+                                "name": "Over",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650591792,
+                                "status": "OPEN",
+                                "result_key": "Under",
+                                "name": "Under",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": 0.5,
+                        "translatedName": "Germany Total Goals 0.5"
+                    },
+                    {
+                        "id": 650737592,
+                        "name": "[Home] Total Goals",
+                        "line": "1",
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 1551,
+                        "market_type_name": "[Home] Total Goals",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1650591685,
+                                "status": "OPEN",
+                                "result_key": "Over",
+                                "name": "Over",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650591686,
+                                "status": "OPEN",
+                                "result_key": "Under",
+                                "name": "Under",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": 1,
+                        "translatedName": "Germany Total Goals 1"
+                    },
+                    {
+                        "id": 650737637,
+                        "name": "[Home] Total Goals",
+                        "line": "1.5",
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 1551,
+                        "market_type_name": "[Home] Total Goals",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1650591809,
+                                "status": "OPEN",
+                                "result_key": "Over",
+                                "name": "Over",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650591810,
+                                "status": "OPEN",
+                                "result_key": "Under",
+                                "name": "Under",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": 1.5,
+                        "translatedName": "Germany Total Goals 1.5"
+                    },
+                    {
+                        "id": 650737634,
+                        "name": "[Home] Total Goals",
+                        "line": "2",
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 1551,
+                        "market_type_name": "[Home] Total Goals",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1650591801,
+                                "status": "OPEN",
+                                "result_key": "Over",
+                                "name": "Over",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650591802,
+                                "status": "OPEN",
+                                "result_key": "Under",
+                                "name": "Under",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": 2,
+                        "translatedName": "Germany Total Goals 2"
+                    },
+                    {
+                        "id": 650737631,
+                        "name": "[Home] Total Goals",
+                        "line": "2.5",
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 1551,
+                        "market_type_name": "[Home] Total Goals",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1650591787,
+                                "status": "OPEN",
+                                "result_key": "Over",
+                                "name": "Over",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650591788,
+                                "status": "OPEN",
+                                "result_key": "Under",
+                                "name": "Under",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": 2.5,
+                        "translatedName": "Germany Total Goals 2.5"
+                    },
+                    {
+                        "id": 650737636,
+                        "name": "[Home] Total Goals",
+                        "line": "3",
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 1551,
+                        "market_type_name": "[Home] Total Goals",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1650591807,
+                                "status": "OPEN",
+                                "result_key": "Over",
+                                "name": "Over",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650591808,
+                                "status": "OPEN",
+                                "result_key": "Under",
+                                "name": "Under",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": 3,
+                        "translatedName": "Germany Total Goals 3"
+                    },
+                    {
+                        "id": 650737638,
+                        "name": "[Home] Total Goals",
+                        "line": "3.5",
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 1551,
+                        "market_type_name": "[Home] Total Goals",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1650591811,
+                                "status": "OPEN",
+                                "result_key": "Over",
+                                "name": "Over",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650591812,
+                                "status": "OPEN",
+                                "result_key": "Under",
+                                "name": "Under",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": 3.5,
+                        "translatedName": "Germany Total Goals 3.5"
+                    },
+                    {
+                        "id": 650737625,
+                        "name": "[Home] Total Goals",
+                        "line": "4",
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 1551,
+                        "market_type_name": "[Home] Total Goals",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1650591741,
+                                "status": "OPEN",
+                                "result_key": "Over",
+                                "name": "Over",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650591742,
+                                "status": "OPEN",
+                                "result_key": "Under",
+                                "name": "Under",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": 4,
+                        "translatedName": "Germany Total Goals 4"
+                    },
+                    {
+                        "id": 650737626,
+                        "name": "[Home] Total Goals",
+                        "line": "5",
+                        "status": "OPEN",
+                        "singles_only": false,
+                        "market_type_id": 1551,
+                        "market_type_name": "[Home] Total Goals",
+                        "team_names": null,
+                        "player_names": null,
+                        "sequence": null,
+                        "outcomes_order_by": "odds",
+                        "provider": 6,
+                        "format_outcomes": true,
+                        "outcomes": [
+                            {
+                                "id": 1650591746,
+                                "status": "OPEN",
+                                "result_key": "Over",
+                                "name": "Over",
+                                "has_trading_position": false
+                            },
+                            {
+                                "id": 1650591747,
+                                "status": "OPEN",
+                                "result_key": "Under",
+                                "name": "Under",
+                                "has_trading_position": false
+                            }
+                        ],
+                        "raw_line": 5,
+                        "translatedName": "Germany Total Goals 5"
+                    }
+                ],
+                "uniqueSequences": [],
+                "translatedName": "Germany Total Goals"
+            }
+        ]
+    }
+}
