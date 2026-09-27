@@ -1,0 +1,2150 @@
+{
+  "epicbet": {
+    "Early Win (Anytime 2 Goal Lead) {TEAM}": {
+      "family": "unknown",
+      "selection": "Early Win (Anytime 2 Goal Lead) Arsenal",
+      "line": null,
+      "topic": null
+    },
+    "Both to Score Yes": {
+      "family": "unknown",
+      "selection": "Both to Score Yes",
+      "line": null,
+      "topic": null
+    },
+    "Both to Score No": {
+      "family": "unknown",
+      "selection": "Both to Score No",
+      "line": null,
+      "topic": null
+    },
+    "Goals Handicap {TEAM} {N}": {
+      "family": "unknown",
+      "selection": "Goals Handicap Arsenal -2.25",
+      "line": null,
+      "topic": null
+    },
+    "Goals Handicap {TEAM} -2": {
+      "family": "unknown",
+      "selection": "Goals Handicap Arsenal -2",
+      "line": null,
+      "topic": null
+    },
+    "Goals Handicap {TEAM} -1": {
+      "family": "unknown",
+      "selection": "Goals Handicap Arsenal -1",
+      "line": null,
+      "topic": null
+    },
+    "Double Chance 1 or X": {
+      "family": "unknown",
+      "selection": "Double Chance 1 or X",
+      "line": null,
+      "topic": null
+    },
+    "Double Chance 1 or 2": {
+      "family": "unknown",
+      "selection": "Double Chance 1 or 2",
+      "line": null,
+      "topic": null
+    },
+    "Double Chance X or 2": {
+      "family": "unknown",
+      "selection": "Double Chance X or 2",
+      "line": null,
+      "topic": null
+    },
+    "Score Draw Yes": {
+      "family": "unknown",
+      "selection": "Score Draw Yes",
+      "line": null,
+      "topic": null
+    },
+    "Score Draw No": {
+      "family": "unknown",
+      "selection": "Score Draw No",
+      "line": null,
+      "topic": null
+    },
+    "{TEAM} Most Scoring Half 1. half": {
+      "family": "unknown",
+      "selection": "Arsenal Most Scoring Half 1. half",
+      "line": null,
+      "topic": null
+    },
+    "{TEAM} Most Scoring Half Draw": {
+      "family": "unknown",
+      "selection": "Arsenal Most Scoring Half Draw",
+      "line": null,
+      "topic": null
+    },
+    "{TEAM} Most Scoring Half 2. half": {
+      "family": "unknown",
+      "selection": "Arsenal Most Scoring Half 2. half",
+      "line": null,
+      "topic": null
+    },
+    "First to Score (3-way) {TEAM}": {
+      "family": "unknown",
+      "selection": "First to Score (3-way) Arsenal",
+      "line": null,
+      "topic": null
+    },
+    "First to Score (3-way) No Goal": {
+      "family": "unknown",
+      "selection": "First to Score (3-way) No Goal",
+      "line": null,
+      "topic": null
+    },
+    "Last to Score (3-way) {TEAM}": {
+      "family": "unknown",
+      "selection": "Last to Score (3-way) Arsenal",
+      "line": null,
+      "topic": null
+    },
+    "Last to Score (3-way) No Goal": {
+      "family": "unknown",
+      "selection": "Last to Score (3-way) No Goal",
+      "line": null,
+      "topic": null
+    },
+    "Most Goals in Half Draw": {
+      "family": "unknown",
+      "selection": "Most Goals in Half Draw",
+      "line": null,
+      "topic": null
+    },
+    "Most Goals in Half 1. half": {
+      "family": "unknown",
+      "selection": "Most Goals in Half 1. half",
+      "line": null,
+      "topic": null
+    },
+    "Most Goals in Half 2. half": {
+      "family": "unknown",
+      "selection": "Most Goals in Half 2. half",
+      "line": null,
+      "topic": null
+    },
+    "Both to Score in Both Halves Yes": {
+      "family": "unknown",
+      "selection": "Both to Score in Both Halves Yes",
+      "line": null,
+      "topic": null
+    },
+    "Both to Score in Both Halves No": {
+      "family": "unknown",
+      "selection": "Both to Score in Both Halves No",
+      "line": null,
+      "topic": null
+    },
+    "{TEAM} to Score in Both Halves Yes": {
+      "family": "unknown",
+      "selection": "Arsenal to Score in Both Halves Yes",
+      "line": null,
+      "topic": null
+    },
+    "{TEAM} to Score in Both Halves No": {
+      "family": "unknown",
+      "selection": "Arsenal to Score in Both Halves No",
+      "line": null,
+      "topic": null
+    },
+    "{TEAM} Wins Either Half Yes": {
+      "family": "unknown",
+      "selection": "Arsenal Wins Either Half Yes",
+      "line": null,
+      "topic": null
+    },
+    "{TEAM} Wins Either Half No": {
+      "family": "unknown",
+      "selection": "Arsenal Wins Either Half No",
+      "line": null,
+      "topic": null
+    },
+    "{TEAM} Most Goals in Both Halves Yes": {
+      "family": "unknown",
+      "selection": "Arsenal Most Goals in Both Halves Yes",
+      "line": null,
+      "topic": null
+    },
+    "{TEAM} Most Goals in Both Halves No": {
+      "family": "unknown",
+      "selection": "Arsenal Most Goals in Both Halves No",
+      "line": null,
+      "topic": null
+    },
+    "{TEAM} to Win to Nil Yes": {
+      "family": "unknown",
+      "selection": "Arsenal to Win to Nil Yes",
+      "line": null,
+      "topic": null
+    },
+    "{TEAM} to Win to Nil No": {
+      "family": "unknown",
+      "selection": "Arsenal to Win to Nil No",
+      "line": null,
+      "topic": null
+    },
+    "{TEAM} Clean Sheet Yes": {
+      "family": "unknown",
+      "selection": "Arsenal Clean Sheet Yes",
+      "line": null,
+      "topic": null
+    },
+    "{TEAM} Clean Sheet No": {
+      "family": "unknown",
+      "selection": "Arsenal Clean Sheet No",
+      "line": null,
+      "topic": null
+    },
+    "Double Chance and Both to Score 1 or X and Yes": {
+      "family": "unknown",
+      "selection": "Double Chance and Both to Score 1 or X and Yes",
+      "line": null,
+      "topic": null
+    },
+    "Double Chance and Both to Score 1 or 2 and Yes": {
+      "family": "unknown",
+      "selection": "Double Chance and Both to Score 1 or 2 and Yes",
+      "line": null,
+      "topic": null
+    },
+    "Double Chance and Both to Score X or 2 and Yes": {
+      "family": "unknown",
+      "selection": "Double Chance and Both to Score X or 2 and Yes",
+      "line": null,
+      "topic": null
+    },
+    "Double Chance and Both to Score 1 or X and No": {
+      "family": "unknown",
+      "selection": "Double Chance and Both to Score 1 or X and No",
+      "line": null,
+      "topic": null
+    },
+    "Double Chance and Both to Score 1 or 2 and No": {
+      "family": "unknown",
+      "selection": "Double Chance and Both to Score 1 or 2 and No",
+      "line": null,
+      "topic": null
+    },
+    "Double Chance and Both to Score X or 2 and No": {
+      "family": "unknown",
+      "selection": "Double Chance and Both to Score X or 2 and No",
+      "line": null,
+      "topic": null
+    },
+    "Goals Odd/Even Even": {
+      "family": "unknown",
+      "selection": "Goals Odd/Even Even",
+      "line": null,
+      "topic": null
+    },
+    "Goals Odd/Even Odd": {
+      "family": "unknown",
+      "selection": "Goals Odd/Even Odd",
+      "line": null,
+      "topic": null
+    },
+    "Own Goal Yes": {
+      "family": "unknown",
+      "selection": "Own Goal Yes",
+      "line": null,
+      "topic": null
+    },
+    "Own Goal No": {
+      "family": "unknown",
+      "selection": "Own Goal No",
+      "line": null,
+      "topic": null
+    },
+    "1. half: Goals Handicap {TEAM} -1": {
+      "family": "unknown",
+      "selection": "1. half: Goals Handicap Arsenal -1",
+      "line": null,
+      "topic": null
+    },
+    "1. half: Goals Handicap {TEAM} {N}": {
+      "family": "unknown",
+      "selection": "1. half: Goals Handicap Arsenal -0.5",
+      "line": null,
+      "topic": null
+    },
+    "1. half: Most Goals {TEAM}": {
+      "family": "unknown",
+      "selection": "1. half: Most Goals Arsenal",
+      "line": null,
+      "topic": null
+    },
+    "1. half: Double Chance 1 or X": {
+      "family": "unknown",
+      "selection": "1. half: Double Chance 1 or X",
+      "line": null,
+      "topic": null
+    },
+    "1. half: Double Chance 1 or 2": {
+      "family": "unknown",
+      "selection": "1. half: Double Chance 1 or 2",
+      "line": null,
+      "topic": null
+    },
+    "1. half: Double Chance X or 2": {
+      "family": "unknown",
+      "selection": "1. half: Double Chance X or 2",
+      "line": null,
+      "topic": null
+    },
+    "1. half: Both to Score Yes": {
+      "family": "unknown",
+      "selection": "1. half: Both to Score Yes",
+      "line": null,
+      "topic": null
+    },
+    "1. half: Both to Score No": {
+      "family": "unknown",
+      "selection": "1. half: Both to Score No",
+      "line": null,
+      "topic": null
+    },
+    "1. half: First to Score (3-way) {TEAM}": {
+      "family": "unknown",
+      "selection": "1. half: First to Score (3-way) Arsenal",
+      "line": null,
+      "topic": null
+    },
+    "1. half: First to Score (3-way) No Goal": {
+      "family": "unknown",
+      "selection": "1. half: First to Score (3-way) No Goal",
+      "line": null,
+      "topic": null
+    },
+    "1. half: {TEAM} to Win to Nil Yes": {
+      "family": "unknown",
+      "selection": "1. half: Arsenal to Win to Nil Yes",
+      "line": null,
+      "topic": null
+    },
+    "1. half: {TEAM} to Win to Nil No": {
+      "family": "unknown",
+      "selection": "1. half: Arsenal to Win to Nil No",
+      "line": null,
+      "topic": null
+    },
+    "1. half: Double Chance and Both to Score 1 or X and Yes": {
+      "family": "unknown",
+      "selection": "1. half: Double Chance and Both to Score 1 or X and Yes",
+      "line": null,
+      "topic": null
+    },
+    "1. half: Double Chance and Both to Score 1 or 2 and Yes": {
+      "family": "unknown",
+      "selection": "1. half: Double Chance and Both to Score 1 or 2 and Yes",
+      "line": null,
+      "topic": null
+    },
+    "1. half: Double Chance and Both to Score X or 2 and Yes": {
+      "family": "unknown",
+      "selection": "1. half: Double Chance and Both to Score X or 2 and Yes",
+      "line": null,
+      "topic": null
+    },
+    "1. half: Double Chance and Both to Score 1 or X and No": {
+      "family": "unknown",
+      "selection": "1. half: Double Chance and Both to Score 1 or X and No",
+      "line": null,
+      "topic": null
+    },
+    "1. half: Double Chance and Both to Score 1 or 2 and No": {
+      "family": "unknown",
+      "selection": "1. half: Double Chance and Both to Score 1 or 2 and No",
+      "line": null,
+      "topic": null
+    },
+    "1. half: Double Chance and Both to Score X or 2 and No": {
+      "family": "unknown",
+      "selection": "1. half: Double Chance and Both to Score X or 2 and No",
+      "line": null,
+      "topic": null
+    },
+    "1. half: {TEAM} Clean Sheet Yes": {
+      "family": "unknown",
+      "selection": "1. half: Arsenal Clean Sheet Yes",
+      "line": null,
+      "topic": null
+    },
+    "1. half: {TEAM} Clean Sheet No": {
+      "family": "unknown",
+      "selection": "1. half: Arsenal Clean Sheet No",
+      "line": null,
+      "topic": null
+    },
+    "2. half: Handicap {TEAM} {N}": {
+      "family": "unknown",
+      "selection": "2. half: Handicap Arsenal -2.5",
+      "line": null,
+      "topic": null
+    },
+    "2. half: Handicap {TEAM} -2": {
+      "family": "unknown",
+      "selection": "2. half: Handicap Arsenal -2",
+      "line": null,
+      "topic": null
+    },
+    "2. half: Handicap {TEAM} -1": {
+      "family": "unknown",
+      "selection": "2. half: Handicap Arsenal -1",
+      "line": null,
+      "topic": null
+    },
+    "2. half: Most Goals {TEAM}": {
+      "family": "unknown",
+      "selection": "2. half: Most Goals Arsenal",
+      "line": null,
+      "topic": null
+    },
+    "2. half: Both Teams to Score Yes": {
+      "family": "unknown",
+      "selection": "2. half: Both Teams to Score Yes",
+      "line": null,
+      "topic": null
+    },
+    "2. half: Both Teams to Score No": {
+      "family": "unknown",
+      "selection": "2. half: Both Teams to Score No",
+      "line": null,
+      "topic": null
+    },
+    "2. half: First to Score (3-way) {TEAM}": {
+      "family": "unknown",
+      "selection": "2. half: First to Score (3-way) Arsenal",
+      "line": null,
+      "topic": null
+    },
+    "2. half: First to Score (3-way) No Goal": {
+      "family": "unknown",
+      "selection": "2. half: First to Score (3-way) No Goal",
+      "line": null,
+      "topic": null
+    },
+    "2. half: {TEAM} to Win to Nil Yes": {
+      "family": "unknown",
+      "selection": "2. half: Arsenal to Win to Nil Yes",
+      "line": null,
+      "topic": null
+    },
+    "2. half: {TEAM} to Win to Nil No": {
+      "family": "unknown",
+      "selection": "2. half: Arsenal to Win to Nil No",
+      "line": null,
+      "topic": null
+    },
+    "2. half: Double Chance and Both to Score 1 or X and Yes": {
+      "family": "unknown",
+      "selection": "2. half: Double Chance and Both to Score 1 or X and Yes",
+      "line": null,
+      "topic": null
+    },
+    "2. half: Double Chance and Both to Score 1 or 2 and Yes": {
+      "family": "unknown",
+      "selection": "2. half: Double Chance and Both to Score 1 or 2 and Yes",
+      "line": null,
+      "topic": null
+    },
+    "2. half: Double Chance and Both to Score X or 2 and Yes": {
+      "family": "unknown",
+      "selection": "2. half: Double Chance and Both to Score X or 2 and Yes",
+      "line": null,
+      "topic": null
+    },
+    "2. half: Double Chance and Both to Score 1 or X and No": {
+      "family": "unknown",
+      "selection": "2. half: Double Chance and Both to Score 1 or X and No",
+      "line": null,
+      "topic": null
+    },
+    "2. half: Double Chance and Both to Score 1 or 2 and No": {
+      "family": "unknown",
+      "selection": "2. half: Double Chance and Both to Score 1 or 2 and No",
+      "line": null,
+      "topic": null
+    },
+    "2. half: Double Chance and Both to Score X or 2 and No": {
+      "family": "unknown",
+      "selection": "2. half: Double Chance and Both to Score X or 2 and No",
+      "line": null,
+      "topic": null
+    },
+    "2. half: {TEAM} Clean Sheet Yes": {
+      "family": "unknown",
+      "selection": "2. half: Arsenal Clean Sheet Yes",
+      "line": null,
+      "topic": null
+    },
+    "2. half: {TEAM} Clean Sheet No": {
+      "family": "unknown",
+      "selection": "2. half: Arsenal Clean Sheet No",
+      "line": null,
+      "topic": null
+    },
+    "Team leading by 2+ Goals but don't Win the Match Yes": {
+      "family": "unknown",
+      "selection": "Team leading by 2+ Goals but don't Win the Match Yes",
+      "line": null,
+      "topic": null
+    },
+    "Team leading by 2+ Goals but don't Win the Match No": {
+      "family": "unknown",
+      "selection": "Team leading by 2+ Goals but don't Win the Match No",
+      "line": null,
+      "topic": null
+    },
+    "Either Team to Win from Behind Yes": {
+      "family": "unknown",
+      "selection": "Either Team to Win from Behind Yes",
+      "line": null,
+      "topic": null
+    },
+    "Either Team to Win from Behind No": {
+      "family": "unknown",
+      "selection": "Either Team to Win from Behind No",
+      "line": null,
+      "topic": null
+    }
+  },
+  "coolbet": {
+    "Asian Handicap [Home] 0 - 5": {
+      "family": "unknown",
+      "selection": "Asian Handicap [Home] 0 - 5",
+      "line": null,
+      "topic": null
+    },
+    "Asian Handicap [Away] 0 - 5": {
+      "family": "unknown",
+      "selection": "Asian Handicap [Away] 0 - 5",
+      "line": null,
+      "topic": null
+    },
+    "Asian Handicap [Home] 0 - {N}": {
+      "family": "unknown",
+      "selection": "Asian Handicap [Home] 0 - 4.5",
+      "line": null,
+      "topic": null
+    },
+    "Asian Handicap [Away] 0 - {N}": {
+      "family": "unknown",
+      "selection": "Asian Handicap [Away] 0 - 4.5",
+      "line": null,
+      "topic": null
+    },
+    "Asian Handicap [Home] 0 - 4": {
+      "family": "unknown",
+      "selection": "Asian Handicap [Home] 0 - 4",
+      "line": null,
+      "topic": null
+    },
+    "Asian Handicap [Away] 0 - 4": {
+      "family": "unknown",
+      "selection": "Asian Handicap [Away] 0 - 4",
+      "line": null,
+      "topic": null
+    },
+    "Asian Handicap [Home] 0 - 3": {
+      "family": "unknown",
+      "selection": "Asian Handicap [Home] 0 - 3",
+      "line": null,
+      "topic": null
+    },
+    "Asian Handicap [Away] 0 - 3": {
+      "family": "unknown",
+      "selection": "Asian Handicap [Away] 0 - 3",
+      "line": null,
+      "topic": null
+    },
+    "Asian Handicap [Home] 0 - 2": {
+      "family": "unknown",
+      "selection": "Asian Handicap [Home] 0 - 2",
+      "line": null,
+      "topic": null
+    },
+    "Asian Handicap [Away] 0 - 2": {
+      "family": "unknown",
+      "selection": "Asian Handicap [Away] 0 - 2",
+      "line": null,
+      "topic": null
+    },
+    "Asian Handicap [Home] 0 - 1": {
+      "family": "unknown",
+      "selection": "Asian Handicap [Home] 0 - 1",
+      "line": null,
+      "topic": null
+    },
+    "Asian Handicap [Away] 0 - 1": {
+      "family": "unknown",
+      "selection": "Asian Handicap [Away] 0 - 1",
+      "line": null,
+      "topic": null
+    },
+    "Asian Handicap [Home] 1 - 0": {
+      "family": "unknown",
+      "selection": "Asian Handicap [Home] 1 - 0",
+      "line": null,
+      "topic": null
+    },
+    "Asian Handicap [Away] 1 - 0": {
+      "family": "unknown",
+      "selection": "Asian Handicap [Away] 1 - 0",
+      "line": null,
+      "topic": null
+    },
+    "Asian Handicap [Home] {N} - 0": {
+      "family": "unknown",
+      "selection": "Asian Handicap [Home] 1.5 - 0",
+      "line": null,
+      "topic": null
+    },
+    "Asian Handicap [Away] {N} - 0": {
+      "family": "unknown",
+      "selection": "Asian Handicap [Away] 1.5 - 0",
+      "line": null,
+      "topic": null
+    },
+    "Handicap (3 Way) [Home] 0 - 5": {
+      "family": "unknown",
+      "selection": "Handicap (3 Way) [Home] 0 - 5",
+      "line": null,
+      "topic": null
+    },
+    "Handicap (3 Way) Draw 0 - 5": {
+      "family": "unknown",
+      "selection": "Handicap (3 Way) Draw 0 - 5",
+      "line": null,
+      "topic": null
+    },
+    "Handicap (3 Way) [Away] 0 - 5": {
+      "family": "unknown",
+      "selection": "Handicap (3 Way) [Away] 0 - 5",
+      "line": null,
+      "topic": null
+    },
+    "Handicap (3 Way) [Home] 0 - 4": {
+      "family": "unknown",
+      "selection": "Handicap (3 Way) [Home] 0 - 4",
+      "line": null,
+      "topic": null
+    },
+    "Handicap (3 Way) Draw 0 - 4": {
+      "family": "unknown",
+      "selection": "Handicap (3 Way) Draw 0 - 4",
+      "line": null,
+      "topic": null
+    },
+    "Handicap (3 Way) [Away] 0 - 4": {
+      "family": "unknown",
+      "selection": "Handicap (3 Way) [Away] 0 - 4",
+      "line": null,
+      "topic": null
+    },
+    "Handicap (3 Way) [Home] 0 - 3": {
+      "family": "unknown",
+      "selection": "Handicap (3 Way) [Home] 0 - 3",
+      "line": null,
+      "topic": null
+    },
+    "Handicap (3 Way) Draw 0 - 3": {
+      "family": "unknown",
+      "selection": "Handicap (3 Way) Draw 0 - 3",
+      "line": null,
+      "topic": null
+    },
+    "Handicap (3 Way) [Away] 0 - 3": {
+      "family": "unknown",
+      "selection": "Handicap (3 Way) [Away] 0 - 3",
+      "line": null,
+      "topic": null
+    },
+    "Handicap (3 Way) [Home] 0 - 2": {
+      "family": "unknown",
+      "selection": "Handicap (3 Way) [Home] 0 - 2",
+      "line": null,
+      "topic": null
+    },
+    "Handicap (3 Way) Draw 0 - 2": {
+      "family": "unknown",
+      "selection": "Handicap (3 Way) Draw 0 - 2",
+      "line": null,
+      "topic": null
+    },
+    "Handicap (3 Way) [Away] 0 - 2": {
+      "family": "unknown",
+      "selection": "Handicap (3 Way) [Away] 0 - 2",
+      "line": null,
+      "topic": null
+    },
+    "Handicap (3 Way) [Home] 0 - 1": {
+      "family": "unknown",
+      "selection": "Handicap (3 Way) [Home] 0 - 1",
+      "line": null,
+      "topic": null
+    },
+    "Handicap (3 Way) Draw 0 - 1": {
+      "family": "unknown",
+      "selection": "Handicap (3 Way) Draw 0 - 1",
+      "line": null,
+      "topic": null
+    },
+    "Handicap (3 Way) [Away] 0 - 1": {
+      "family": "unknown",
+      "selection": "Handicap (3 Way) [Away] 0 - 1",
+      "line": null,
+      "topic": null
+    },
+    "Handicap (3 Way) [Home] 1 - 0": {
+      "family": "unknown",
+      "selection": "Handicap (3 Way) [Home] 1 - 0",
+      "line": null,
+      "topic": null
+    },
+    "Handicap (3 Way) Draw 1 - 0": {
+      "family": "unknown",
+      "selection": "Handicap (3 Way) Draw 1 - 0",
+      "line": null,
+      "topic": null
+    },
+    "Handicap (3 Way) [Away] 1 - 0": {
+      "family": "unknown",
+      "selection": "Handicap (3 Way) [Away] 1 - 0",
+      "line": null,
+      "topic": null
+    },
+    "Handicap (3 Way) [Home] 2 - 0": {
+      "family": "unknown",
+      "selection": "Handicap (3 Way) [Home] 2 - 0",
+      "line": null,
+      "topic": null
+    },
+    "Handicap (3 Way) Draw 2 - 0": {
+      "family": "unknown",
+      "selection": "Handicap (3 Way) Draw 2 - 0",
+      "line": null,
+      "topic": null
+    },
+    "Handicap (3 Way) [Away] 2 - 0": {
+      "family": "unknown",
+      "selection": "Handicap (3 Way) [Away] 2 - 0",
+      "line": null,
+      "topic": null
+    },
+    "Both Teams To Score Yes": {
+      "family": "unknown",
+      "selection": "Both Teams To Score Yes",
+      "line": null,
+      "topic": null
+    },
+    "Both Teams To Score No": {
+      "family": "unknown",
+      "selection": "Both Teams To Score No",
+      "line": null,
+      "topic": null
+    },
+    "Both Teams To Score & Over {N} Goals Yes": {
+      "family": "unknown",
+      "selection": "Both Teams To Score & Over 2.5 Goals Yes",
+      "line": null,
+      "topic": null
+    },
+    "Both Teams To Score & Over {N} Goals No": {
+      "family": "unknown",
+      "selection": "Both Teams To Score & Over 2.5 Goals No",
+      "line": null,
+      "topic": null
+    },
+    "Draw No Bet [Home]": {
+      "family": "unknown",
+      "selection": "Draw No Bet [Home]",
+      "line": null,
+      "topic": null
+    },
+    "Draw No Bet [Away]": {
+      "family": "unknown",
+      "selection": "Draw No Bet [Away]",
+      "line": null,
+      "topic": null
+    },
+    "Double Chance [Home]/Draw": {
+      "family": "unknown",
+      "selection": "Double Chance [Home]/Draw",
+      "line": null,
+      "topic": null
+    },
+    "Double Chance [Away]/Draw": {
+      "family": "unknown",
+      "selection": "Double Chance [Away]/Draw",
+      "line": null,
+      "topic": null
+    },
+    "Double Chance [Home]/[Away]": {
+      "family": "unknown",
+      "selection": "Double Chance [Home]/[Away]",
+      "line": null,
+      "topic": null
+    }
+  },
+  "optibet": {
+    "Handicap 1 (-2.5)": {
+      "family": "unknown",
+      "selection": "Handicap 1 (-2.5)",
+      "line": null,
+      "topic": null
+    },
+    "Handicap 2 (+2.5)": {
+      "family": "unknown",
+      "selection": "Handicap 2 (+2.5)",
+      "line": null,
+      "topic": null
+    },
+    "Handicap 1 (-2)": {
+      "family": "unknown",
+      "selection": "Handicap 1 (-2)",
+      "line": null,
+      "topic": null
+    },
+    "Handicap 2 (+2)": {
+      "family": "unknown",
+      "selection": "Handicap 2 (+2)",
+      "line": null,
+      "topic": null
+    },
+    "Handicap 1 (-1.5)": {
+      "family": "unknown",
+      "selection": "Handicap 1 (-1.5)",
+      "line": null,
+      "topic": null
+    },
+    "Handicap 2 (+1.5)": {
+      "family": "unknown",
+      "selection": "Handicap 2 (+1.5)",
+      "line": null,
+      "topic": null
+    },
+    "Handicap 1 (-1)": {
+      "family": "unknown",
+      "selection": "Handicap 1 (-1)",
+      "line": null,
+      "topic": null
+    },
+    "Handicap 2 (+1)": {
+      "family": "unknown",
+      "selection": "Handicap 2 (+1)",
+      "line": null,
+      "topic": null
+    },
+    "Handicap 1 (-0.5)": {
+      "family": "unknown",
+      "selection": "Handicap 1 (-0.5)",
+      "line": null,
+      "topic": null
+    },
+    "Handicap 2 (+0.5)": {
+      "family": "unknown",
+      "selection": "Handicap 2 (+0.5)",
+      "line": null,
+      "topic": null
+    },
+    "Handicap 1 (0)": {
+      "family": "unknown",
+      "selection": "Handicap 1 (0)",
+      "line": null,
+      "topic": null
+    },
+    "Handicap 2 (0)": {
+      "family": "unknown",
+      "selection": "Handicap 2 (0)",
+      "line": null,
+      "topic": null
+    },
+    "3-way handicap 1 (-3)": {
+      "family": "unknown",
+      "selection": "3-way handicap 1 (-3)",
+      "line": null,
+      "topic": null
+    },
+    "3-way handicap Draw, First team (-3)": {
+      "family": "unknown",
+      "selection": "3-way handicap Draw, First team (-3)",
+      "line": null,
+      "topic": null
+    },
+    "3-way handicap 2 (+3)": {
+      "family": "unknown",
+      "selection": "3-way handicap 2 (+3)",
+      "line": null,
+      "topic": null
+    },
+    "3-way handicap 1 (-2)": {
+      "family": "unknown",
+      "selection": "3-way handicap 1 (-2)",
+      "line": null,
+      "topic": null
+    },
+    "3-way handicap Draw, First team (-2)": {
+      "family": "unknown",
+      "selection": "3-way handicap Draw, First team (-2)",
+      "line": null,
+      "topic": null
+    },
+    "3-way handicap 2 (+2)": {
+      "family": "unknown",
+      "selection": "3-way handicap 2 (+2)",
+      "line": null,
+      "topic": null
+    },
+    "3-way handicap 1 (-1)": {
+      "family": "unknown",
+      "selection": "3-way handicap 1 (-1)",
+      "line": null,
+      "topic": null
+    },
+    "3-way handicap Draw, First team (-1)": {
+      "family": "unknown",
+      "selection": "3-way handicap Draw, First team (-1)",
+      "line": null,
+      "topic": null
+    },
+    "3-way handicap 2 (+1)": {
+      "family": "unknown",
+      "selection": "3-way handicap 2 (+1)",
+      "line": null,
+      "topic": null
+    },
+    "1st half result 1": {
+      "family": "unknown",
+      "selection": "1st half result 1",
+      "line": null,
+      "topic": null
+    },
+    "1st half result X": {
+      "family": "unknown",
+      "selection": "1st half result X",
+      "line": null,
+      "topic": null
+    },
+    "1st half result 2": {
+      "family": "unknown",
+      "selection": "1st half result 2",
+      "line": null,
+      "topic": null
+    },
+    "2nd half result 1": {
+      "family": "unknown",
+      "selection": "2nd half result 1",
+      "line": null,
+      "topic": null
+    },
+    "2nd half result X": {
+      "family": "unknown",
+      "selection": "2nd half result X",
+      "line": null,
+      "topic": null
+    },
+    "2nd half result 2": {
+      "family": "unknown",
+      "selection": "2nd half result 2",
+      "line": null,
+      "topic": null
+    },
+    "Half Time/Full Time 1/1": {
+      "family": "unknown",
+      "selection": "Half Time/Full Time 1/1",
+      "line": null,
+      "topic": null
+    },
+    "Half Time/Full Time 1/X": {
+      "family": "unknown",
+      "selection": "Half Time/Full Time 1/X",
+      "line": null,
+      "topic": null
+    },
+    "Half Time/Full Time 1/2": {
+      "family": "unknown",
+      "selection": "Half Time/Full Time 1/2",
+      "line": null,
+      "topic": null
+    },
+    "Half Time/Full Time X/1": {
+      "family": "unknown",
+      "selection": "Half Time/Full Time X/1",
+      "line": null,
+      "topic": null
+    },
+    "Half Time/Full Time X/X": {
+      "family": "unknown",
+      "selection": "Half Time/Full Time X/X",
+      "line": null,
+      "topic": null
+    },
+    "Half Time/Full Time X/2": {
+      "family": "unknown",
+      "selection": "Half Time/Full Time X/2",
+      "line": null,
+      "topic": null
+    },
+    "Half Time/Full Time 2/1": {
+      "family": "unknown",
+      "selection": "Half Time/Full Time 2/1",
+      "line": null,
+      "topic": null
+    },
+    "Half Time/Full Time 2/X": {
+      "family": "unknown",
+      "selection": "Half Time/Full Time 2/X",
+      "line": null,
+      "topic": null
+    },
+    "Half Time/Full Time 2/2": {
+      "family": "unknown",
+      "selection": "Half Time/Full Time 2/2",
+      "line": null,
+      "topic": null
+    },
+    "Odd/Even Odd": {
+      "family": "unknown",
+      "selection": "Odd/Even Odd",
+      "line": null,
+      "topic": null
+    },
+    "Odd/Even Even": {
+      "family": "unknown",
+      "selection": "Odd/Even Even",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time Exact Total Goals No goal": {
+      "family": "unknown",
+      "selection": "Regular Time Exact Total Goals No goal",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time Exact Total Goals 1": {
+      "family": "unknown",
+      "selection": "Regular Time Exact Total Goals 1",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time Exact Total Goals 2": {
+      "family": "unknown",
+      "selection": "Regular Time Exact Total Goals 2",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time Exact Total Goals 3": {
+      "family": "unknown",
+      "selection": "Regular Time Exact Total Goals 3",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time Exact Total Goals 4": {
+      "family": "unknown",
+      "selection": "Regular Time Exact Total Goals 4",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time Exact Total Goals 5": {
+      "family": "unknown",
+      "selection": "Regular Time Exact Total Goals 5",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time Exact Total Goals 6": {
+      "family": "unknown",
+      "selection": "Regular Time Exact Total Goals 6",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time Exact Total Goals 7": {
+      "family": "unknown",
+      "selection": "Regular Time Exact Total Goals 7",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time Exact Total Goals 8 or more": {
+      "family": "unknown",
+      "selection": "Regular Time Exact Total Goals 8 or more",
+      "line": null,
+      "topic": null
+    },
+    "1st Half - Goal Nr.1 scored by Player 1": {
+      "family": "unknown",
+      "selection": "1st Half - Goal Nr.1 scored by Player 1",
+      "line": null,
+      "topic": null
+    },
+    "1st Half - Goal Nr.1 scored by Player 2": {
+      "family": "unknown",
+      "selection": "1st Half - Goal Nr.1 scored by Player 2",
+      "line": null,
+      "topic": null
+    },
+    "1st Half - Goal Nr.1 scored by No goal": {
+      "family": "unknown",
+      "selection": "1st Half - Goal Nr.1 scored by No goal",
+      "line": null,
+      "topic": null
+    },
+    "2nd Half - Goal Nr.1 scored by Player 1": {
+      "family": "unknown",
+      "selection": "2nd Half - Goal Nr.1 scored by Player 1",
+      "line": null,
+      "topic": null
+    },
+    "2nd Half - Goal Nr.1 scored by Player 2": {
+      "family": "unknown",
+      "selection": "2nd Half - Goal Nr.1 scored by Player 2",
+      "line": null,
+      "topic": null
+    },
+    "2nd Half - Goal Nr.1 scored by No goal": {
+      "family": "unknown",
+      "selection": "2nd Half - Goal Nr.1 scored by No goal",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Goal Nr.1 scored by Player 1": {
+      "family": "unknown",
+      "selection": "Regular Time - Goal Nr.1 scored by Player 1",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Goal Nr.1 scored by Player 2": {
+      "family": "unknown",
+      "selection": "Regular Time - Goal Nr.1 scored by Player 2",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Goal Nr.1 scored by No goal": {
+      "family": "unknown",
+      "selection": "Regular Time - Goal Nr.1 scored by No goal",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time Result And Both Teams To Score Team 1 to win and Both Team to score": {
+      "family": "unknown",
+      "selection": "Regular Time Result And Both Teams To Score Team 1 to win and Both Team to score",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time Result And Both Teams To Score Team 2 to win and Both Team to score": {
+      "family": "unknown",
+      "selection": "Regular Time Result And Both Teams To Score Team 2 to win and Both Team to score",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time Result And Both Teams To Score Team 1 to win and Both Teams not to score": {
+      "family": "unknown",
+      "selection": "Regular Time Result And Both Teams To Score Team 1 to win and Both Teams not to score",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time Result And Both Teams To Score Team 2 to win and Both Teams not to score": {
+      "family": "unknown",
+      "selection": "Regular Time Result And Both Teams To Score Team 2 to win and Both Teams not to score",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time Result And Both Teams To Score Both teams to score and end in a draw": {
+      "family": "unknown",
+      "selection": "Regular Time Result And Both Teams To Score Both teams to score and end in a draw",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time Result And Both Teams To Score No Goals": {
+      "family": "unknown",
+      "selection": "Regular Time Result And Both Teams To Score No Goals",
+      "line": null,
+      "topic": null
+    },
+    "Win From Behind None": {
+      "family": "unknown",
+      "selection": "Win From Behind None",
+      "line": null,
+      "topic": null
+    },
+    "Win From Behind Player 1": {
+      "family": "unknown",
+      "selection": "Win From Behind Player 1",
+      "line": null,
+      "topic": null
+    },
+    "Win From Behind Player 2": {
+      "family": "unknown",
+      "selection": "Win From Behind Player 2",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Arsenal to score Yes": {
+      "family": "unknown",
+      "selection": "Regular Time - Arsenal to score Yes",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Arsenal to score No": {
+      "family": "unknown",
+      "selection": "Regular Time - Arsenal to score No",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Leeds United to score Yes": {
+      "family": "unknown",
+      "selection": "Regular Time - Leeds United to score Yes",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Leeds United to score No": {
+      "family": "unknown",
+      "selection": "Regular Time - Leeds United to score No",
+      "line": null,
+      "topic": null
+    },
+    "1st Half - Arsenal to win to Nil Yes": {
+      "family": "unknown",
+      "selection": "1st Half - Arsenal to win to Nil Yes",
+      "line": null,
+      "topic": null
+    },
+    "1st Half - Arsenal to win to Nil No": {
+      "family": "unknown",
+      "selection": "1st Half - Arsenal to win to Nil No",
+      "line": null,
+      "topic": null
+    },
+    "2nd Half - Arsenal to win to Nil Yes": {
+      "family": "unknown",
+      "selection": "2nd Half - Arsenal to win to Nil Yes",
+      "line": null,
+      "topic": null
+    },
+    "2nd Half - Arsenal to win to Nil No": {
+      "family": "unknown",
+      "selection": "2nd Half - Arsenal to win to Nil No",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Arsenal to win to Nil Yes": {
+      "family": "unknown",
+      "selection": "Regular Time - Arsenal to win to Nil Yes",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Arsenal to win to Nil No": {
+      "family": "unknown",
+      "selection": "Regular Time - Arsenal to win to Nil No",
+      "line": null,
+      "topic": null
+    },
+    "1st Half - Leeds United to win to Nil Yes": {
+      "family": "unknown",
+      "selection": "1st Half - Leeds United to win to Nil Yes",
+      "line": null,
+      "topic": null
+    },
+    "1st Half - Leeds United to win to Nil No": {
+      "family": "unknown",
+      "selection": "1st Half - Leeds United to win to Nil No",
+      "line": null,
+      "topic": null
+    },
+    "2nd Half - Leeds United to win to Nil Yes": {
+      "family": "unknown",
+      "selection": "2nd Half - Leeds United to win to Nil Yes",
+      "line": null,
+      "topic": null
+    },
+    "2nd Half - Leeds United to win to Nil No": {
+      "family": "unknown",
+      "selection": "2nd Half - Leeds United to win to Nil No",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Leeds United to win to Nil Yes": {
+      "family": "unknown",
+      "selection": "Regular Time - Leeds United to win to Nil Yes",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Leeds United to win to Nil No": {
+      "family": "unknown",
+      "selection": "Regular Time - Leeds United to win to Nil No",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - 1 or more Goals to be scored both halves Yes": {
+      "family": "unknown",
+      "selection": "Regular Time - 1 or more Goals to be scored both halves Yes",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - 1 or more Goals to be scored both halves No": {
+      "family": "unknown",
+      "selection": "Regular Time - 1 or more Goals to be scored both halves No",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - 2 or more Goals to be scored both halves Yes": {
+      "family": "unknown",
+      "selection": "Regular Time - 2 or more Goals to be scored both halves Yes",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - 2 or more Goals to be scored both halves No": {
+      "family": "unknown",
+      "selection": "Regular Time - 2 or more Goals to be scored both halves No",
+      "line": null,
+      "topic": null
+    },
+    "1st Half Draw No Bet 1": {
+      "family": "unknown",
+      "selection": "1st Half Draw No Bet 1",
+      "line": null,
+      "topic": null
+    },
+    "1st Half Draw No Bet 2": {
+      "family": "unknown",
+      "selection": "1st Half Draw No Bet 2",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time Draw No Bet 1": {
+      "family": "unknown",
+      "selection": "Regular Time Draw No Bet 1",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time Draw No Bet 2": {
+      "family": "unknown",
+      "selection": "Regular Time Draw No Bet 2",
+      "line": null,
+      "topic": null
+    },
+    "Half with most goals 1st half": {
+      "family": "unknown",
+      "selection": "Half with most goals 1st half",
+      "line": null,
+      "topic": null
+    },
+    "Half with most goals X": {
+      "family": "unknown",
+      "selection": "Half with most goals X",
+      "line": null,
+      "topic": null
+    },
+    "Half with most goals 2nd half": {
+      "family": "unknown",
+      "selection": "Half with most goals 2nd half",
+      "line": null,
+      "topic": null
+    },
+    "Both Teams Score + Any Team Win Yes": {
+      "family": "unknown",
+      "selection": "Both Teams Score + Any Team Win Yes",
+      "line": null,
+      "topic": null
+    },
+    "Both Teams Score + Any Team Win No": {
+      "family": "unknown",
+      "selection": "Both Teams Score + Any Team Win No",
+      "line": null,
+      "topic": null
+    },
+    "Any Team Win from Behind Yes": {
+      "family": "unknown",
+      "selection": "Any Team Win from Behind Yes",
+      "line": null,
+      "topic": null
+    },
+    "Any Team Win from Behind No": {
+      "family": "unknown",
+      "selection": "Any Team Win from Behind No",
+      "line": null,
+      "topic": null
+    },
+    "1st Half - Correct Score 1:0": {
+      "family": "unknown",
+      "selection": "1st Half - Correct Score 1:0",
+      "line": null,
+      "topic": null
+    },
+    "1st Half - Correct Score 0:0": {
+      "family": "unknown",
+      "selection": "1st Half - Correct Score 0:0",
+      "line": null,
+      "topic": null
+    },
+    "1st Half - Correct Score 0:1": {
+      "family": "unknown",
+      "selection": "1st Half - Correct Score 0:1",
+      "line": null,
+      "topic": null
+    },
+    "1st Half - Correct Score 2:0": {
+      "family": "unknown",
+      "selection": "1st Half - Correct Score 2:0",
+      "line": null,
+      "topic": null
+    },
+    "1st Half - Correct Score 1:1": {
+      "family": "unknown",
+      "selection": "1st Half - Correct Score 1:1",
+      "line": null,
+      "topic": null
+    },
+    "1st Half - Correct Score 0:2": {
+      "family": "unknown",
+      "selection": "1st Half - Correct Score 0:2",
+      "line": null,
+      "topic": null
+    },
+    "1st Half - Correct Score 2:1": {
+      "family": "unknown",
+      "selection": "1st Half - Correct Score 2:1",
+      "line": null,
+      "topic": null
+    },
+    "1st Half - Correct Score 2:2": {
+      "family": "unknown",
+      "selection": "1st Half - Correct Score 2:2",
+      "line": null,
+      "topic": null
+    },
+    "1st Half - Correct Score 1:2": {
+      "family": "unknown",
+      "selection": "1st Half - Correct Score 1:2",
+      "line": null,
+      "topic": null
+    },
+    "1st Half - Correct Score 3:0": {
+      "family": "unknown",
+      "selection": "1st Half - Correct Score 3:0",
+      "line": null,
+      "topic": null
+    },
+    "1st Half - Correct Score 3:3": {
+      "family": "unknown",
+      "selection": "1st Half - Correct Score 3:3",
+      "line": null,
+      "topic": null
+    },
+    "1st Half - Correct Score 0:3": {
+      "family": "unknown",
+      "selection": "1st Half - Correct Score 0:3",
+      "line": null,
+      "topic": null
+    },
+    "1st Half - Correct Score 3:1": {
+      "family": "unknown",
+      "selection": "1st Half - Correct Score 3:1",
+      "line": null,
+      "topic": null
+    },
+    "1st Half - Correct Score 1:3": {
+      "family": "unknown",
+      "selection": "1st Half - Correct Score 1:3",
+      "line": null,
+      "topic": null
+    },
+    "1st Half - Correct Score 3:2": {
+      "family": "unknown",
+      "selection": "1st Half - Correct Score 3:2",
+      "line": null,
+      "topic": null
+    },
+    "1st Half - Correct Score 2:3": {
+      "family": "unknown",
+      "selection": "1st Half - Correct Score 2:3",
+      "line": null,
+      "topic": null
+    },
+    "1st Half - Correct Score 4:0": {
+      "family": "unknown",
+      "selection": "1st Half - Correct Score 4:0",
+      "line": null,
+      "topic": null
+    },
+    "1st Half - Correct Score 0:4": {
+      "family": "unknown",
+      "selection": "1st Half - Correct Score 0:4",
+      "line": null,
+      "topic": null
+    },
+    "1st Half - Correct Score 4:1": {
+      "family": "unknown",
+      "selection": "1st Half - Correct Score 4:1",
+      "line": null,
+      "topic": null
+    },
+    "1st Half - Correct Score 1:4": {
+      "family": "unknown",
+      "selection": "1st Half - Correct Score 1:4",
+      "line": null,
+      "topic": null
+    },
+    "1st Half - Correct Score 4:2": {
+      "family": "unknown",
+      "selection": "1st Half - Correct Score 4:2",
+      "line": null,
+      "topic": null
+    },
+    "1st Half - Correct Score 2:4": {
+      "family": "unknown",
+      "selection": "1st Half - Correct Score 2:4",
+      "line": null,
+      "topic": null
+    },
+    "1st Half - Correct Score Other": {
+      "family": "unknown",
+      "selection": "1st Half - Correct Score Other",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Correct Score 1:0": {
+      "family": "unknown",
+      "selection": "Regular Time - Correct Score 1:0",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Correct Score 0:0": {
+      "family": "unknown",
+      "selection": "Regular Time - Correct Score 0:0",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Correct Score 0:1": {
+      "family": "unknown",
+      "selection": "Regular Time - Correct Score 0:1",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Correct Score 2:0": {
+      "family": "unknown",
+      "selection": "Regular Time - Correct Score 2:0",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Correct Score 1:1": {
+      "family": "unknown",
+      "selection": "Regular Time - Correct Score 1:1",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Correct Score 0:2": {
+      "family": "unknown",
+      "selection": "Regular Time - Correct Score 0:2",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Correct Score 2:1": {
+      "family": "unknown",
+      "selection": "Regular Time - Correct Score 2:1",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Correct Score 2:2": {
+      "family": "unknown",
+      "selection": "Regular Time - Correct Score 2:2",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Correct Score 1:2": {
+      "family": "unknown",
+      "selection": "Regular Time - Correct Score 1:2",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Correct Score 3:0": {
+      "family": "unknown",
+      "selection": "Regular Time - Correct Score 3:0",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Correct Score 3:3": {
+      "family": "unknown",
+      "selection": "Regular Time - Correct Score 3:3",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Correct Score 0:3": {
+      "family": "unknown",
+      "selection": "Regular Time - Correct Score 0:3",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Correct Score 3:1": {
+      "family": "unknown",
+      "selection": "Regular Time - Correct Score 3:1",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Correct Score 4:4": {
+      "family": "unknown",
+      "selection": "Regular Time - Correct Score 4:4",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Correct Score 1:3": {
+      "family": "unknown",
+      "selection": "Regular Time - Correct Score 1:3",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Correct Score 3:2": {
+      "family": "unknown",
+      "selection": "Regular Time - Correct Score 3:2",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Correct Score 2:3": {
+      "family": "unknown",
+      "selection": "Regular Time - Correct Score 2:3",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Correct Score 4:0": {
+      "family": "unknown",
+      "selection": "Regular Time - Correct Score 4:0",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Correct Score 0:4": {
+      "family": "unknown",
+      "selection": "Regular Time - Correct Score 0:4",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Correct Score 4:1": {
+      "family": "unknown",
+      "selection": "Regular Time - Correct Score 4:1",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Correct Score 1:4": {
+      "family": "unknown",
+      "selection": "Regular Time - Correct Score 1:4",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Correct Score 4:2": {
+      "family": "unknown",
+      "selection": "Regular Time - Correct Score 4:2",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Correct Score 2:4": {
+      "family": "unknown",
+      "selection": "Regular Time - Correct Score 2:4",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Correct Score 4:3": {
+      "family": "unknown",
+      "selection": "Regular Time - Correct Score 4:3",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Correct Score 3:4": {
+      "family": "unknown",
+      "selection": "Regular Time - Correct Score 3:4",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Correct Score Other": {
+      "family": "unknown",
+      "selection": "Regular Time - Correct Score Other",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time Handicap 1 (-1.5)": {
+      "family": "unknown",
+      "selection": "Regular Time Handicap 1 (-1.5)",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time Handicap 2 (+1.5)": {
+      "family": "unknown",
+      "selection": "Regular Time Handicap 2 (+1.5)",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time Winning margin Team 1 by 1": {
+      "family": "unknown",
+      "selection": "Regular Time Winning margin Team 1 by 1",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time Winning margin Team 1 by 2": {
+      "family": "unknown",
+      "selection": "Regular Time Winning margin Team 1 by 2",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time Winning margin Team 1 by 3": {
+      "family": "unknown",
+      "selection": "Regular Time Winning margin Team 1 by 3",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time Winning margin Team 2 by 1": {
+      "family": "unknown",
+      "selection": "Regular Time Winning margin Team 2 by 1",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time Winning margin Team 2 by 2": {
+      "family": "unknown",
+      "selection": "Regular Time Winning margin Team 2 by 2",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time Winning margin Team 2 by 3": {
+      "family": "unknown",
+      "selection": "Regular Time Winning margin Team 2 by 3",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time Winning margin X": {
+      "family": "unknown",
+      "selection": "Regular Time Winning margin X",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time Winning margin Team 1 by 4 or more": {
+      "family": "unknown",
+      "selection": "Regular Time Winning margin Team 1 by 4 or more",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time Winning margin Team 2 by 4 or more": {
+      "family": "unknown",
+      "selection": "Regular Time Winning margin Team 2 by 4 or more",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time Winning margin No goal": {
+      "family": "unknown",
+      "selection": "Regular Time Winning margin No goal",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Double Chance and Over/Under Goals 1|2 and Over {N}": {
+      "family": "unknown",
+      "selection": "Regular Time - Double Chance and Over/Under Goals 1|2 and Over 1.5",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Double Chance and Over/Under Goals 1|2 and Under {N}": {
+      "family": "unknown",
+      "selection": "Regular Time - Double Chance and Over/Under Goals 1|2 and Under 1.5",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Double Chance and Over/Under Goals 1|X and Over {N}": {
+      "family": "unknown",
+      "selection": "Regular Time - Double Chance and Over/Under Goals 1|X and Over 1.5",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Double Chance and Over/Under Goals 1|X and Under {N}": {
+      "family": "unknown",
+      "selection": "Regular Time - Double Chance and Over/Under Goals 1|X and Under 1.5",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Double Chance and Over/Under Goals X|2 and Over {N}": {
+      "family": "unknown",
+      "selection": "Regular Time - Double Chance and Over/Under Goals X|2 and Over 1.5",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Double Chance and Over/Under Goals X|2 and Under {N}": {
+      "family": "unknown",
+      "selection": "Regular Time - Double Chance and Over/Under Goals X|2 and Under 1.5",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Double Chance and Both Teams to Score 1|2 and No": {
+      "family": "unknown",
+      "selection": "Regular Time - Double Chance and Both Teams to Score 1|2 and No",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Double Chance and Both Teams to Score 1|2 and Yes": {
+      "family": "unknown",
+      "selection": "Regular Time - Double Chance and Both Teams to Score 1|2 and Yes",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Double Chance and Both Teams to Score 1|X and No": {
+      "family": "unknown",
+      "selection": "Regular Time - Double Chance and Both Teams to Score 1|X and No",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Double Chance and Both Teams to Score 1|X and Yes": {
+      "family": "unknown",
+      "selection": "Regular Time - Double Chance and Both Teams to Score 1|X and Yes",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Double Chance and Both Teams to Score X|2 and No": {
+      "family": "unknown",
+      "selection": "Regular Time - Double Chance and Both Teams to Score X|2 and No",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Double Chance and Both Teams to Score X|2 and Yes": {
+      "family": "unknown",
+      "selection": "Regular Time - Double Chance and Both Teams to Score X|2 and Yes",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Total goal bands 0-3": {
+      "family": "unknown",
+      "selection": "Regular Time - Total goal bands 0-3",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Total goal bands 4-5": {
+      "family": "unknown",
+      "selection": "Regular Time - Total goal bands 4-5",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Total goal bands 6 or more": {
+      "family": "unknown",
+      "selection": "Regular Time - Total goal bands 6 or more",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Total goal bands 0-1": {
+      "family": "unknown",
+      "selection": "Regular Time - Total goal bands 0-1",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Total goal bands 2-3": {
+      "family": "unknown",
+      "selection": "Regular Time - Total goal bands 2-3",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Total goal bands 4 or more": {
+      "family": "unknown",
+      "selection": "Regular Time - Total goal bands 4 or more",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Total goal bands 0-2": {
+      "family": "unknown",
+      "selection": "Regular Time - Total goal bands 0-2",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Total goal bands 3-4": {
+      "family": "unknown",
+      "selection": "Regular Time - Total goal bands 3-4",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Total goal bands 5 or more": {
+      "family": "unknown",
+      "selection": "Regular Time - Total goal bands 5 or more",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Double Chance and Multi Goal 1|2 + (3-5) Yes": {
+      "family": "unknown",
+      "selection": "Regular Time - Double Chance and Multi Goal 1|2 + (3-5) Yes",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Double Chance and Multi Goal 1|2 + (3-4) Yes": {
+      "family": "unknown",
+      "selection": "Regular Time - Double Chance and Multi Goal 1|2 + (3-4) Yes",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Double Chance and Multi Goal 1|2 + (2-5) Yes": {
+      "family": "unknown",
+      "selection": "Regular Time - Double Chance and Multi Goal 1|2 + (2-5) Yes",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Double Chance and Multi Goal 1|2 + (2-4) Yes": {
+      "family": "unknown",
+      "selection": "Regular Time - Double Chance and Multi Goal 1|2 + (2-4) Yes",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Double Chance and Multi Goal 1|2 + (2-3) Yes": {
+      "family": "unknown",
+      "selection": "Regular Time - Double Chance and Multi Goal 1|2 + (2-3) Yes",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Double Chance and Multi Goal 1|2 + (1-5) Yes": {
+      "family": "unknown",
+      "selection": "Regular Time - Double Chance and Multi Goal 1|2 + (1-5) Yes",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Double Chance and Multi Goal 1|2 + (1-4) Yes": {
+      "family": "unknown",
+      "selection": "Regular Time - Double Chance and Multi Goal 1|2 + (1-4) Yes",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Double Chance and Multi Goal 1|2 + (1-3) Yes": {
+      "family": "unknown",
+      "selection": "Regular Time - Double Chance and Multi Goal 1|2 + (1-3) Yes",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Double Chance and Multi Goal 1|2 + (1-2) Yes": {
+      "family": "unknown",
+      "selection": "Regular Time - Double Chance and Multi Goal 1|2 + (1-2) Yes",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Double Chance and Multi Goal 1|X + (3-5) Yes": {
+      "family": "unknown",
+      "selection": "Regular Time - Double Chance and Multi Goal 1|X + (3-5) Yes",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Double Chance and Multi Goal 1|X + (3-4) Yes": {
+      "family": "unknown",
+      "selection": "Regular Time - Double Chance and Multi Goal 1|X + (3-4) Yes",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Double Chance and Multi Goal 1|X + (2-5) Yes": {
+      "family": "unknown",
+      "selection": "Regular Time - Double Chance and Multi Goal 1|X + (2-5) Yes",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Double Chance and Multi Goal 1|X + (2-4) Yes": {
+      "family": "unknown",
+      "selection": "Regular Time - Double Chance and Multi Goal 1|X + (2-4) Yes",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Double Chance and Multi Goal 1|X + (2-3) Yes": {
+      "family": "unknown",
+      "selection": "Regular Time - Double Chance and Multi Goal 1|X + (2-3) Yes",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Double Chance and Multi Goal 1|X + (1-5) Yes": {
+      "family": "unknown",
+      "selection": "Regular Time - Double Chance and Multi Goal 1|X + (1-5) Yes",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Double Chance and Multi Goal 1|X + (1-4) Yes": {
+      "family": "unknown",
+      "selection": "Regular Time - Double Chance and Multi Goal 1|X + (1-4) Yes",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Double Chance and Multi Goal 1|X + (1-3) Yes": {
+      "family": "unknown",
+      "selection": "Regular Time - Double Chance and Multi Goal 1|X + (1-3) Yes",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Double Chance and Multi Goal 1|X + (1-2) Yes": {
+      "family": "unknown",
+      "selection": "Regular Time - Double Chance and Multi Goal 1|X + (1-2) Yes",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Double Chance and Multi Goal X|2 + (3-5) Yes": {
+      "family": "unknown",
+      "selection": "Regular Time - Double Chance and Multi Goal X|2 + (3-5) Yes",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Double Chance and Multi Goal X|2 + (3-4) Yes": {
+      "family": "unknown",
+      "selection": "Regular Time - Double Chance and Multi Goal X|2 + (3-4) Yes",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Double Chance and Multi Goal X|2 + (2-5) Yes": {
+      "family": "unknown",
+      "selection": "Regular Time - Double Chance and Multi Goal X|2 + (2-5) Yes",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Double Chance and Multi Goal X|2 + (2-4) Yes": {
+      "family": "unknown",
+      "selection": "Regular Time - Double Chance and Multi Goal X|2 + (2-4) Yes",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Double Chance and Multi Goal X|2 + (2-3) Yes": {
+      "family": "unknown",
+      "selection": "Regular Time - Double Chance and Multi Goal X|2 + (2-3) Yes",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Double Chance and Multi Goal X|2 + (1-5) Yes": {
+      "family": "unknown",
+      "selection": "Regular Time - Double Chance and Multi Goal X|2 + (1-5) Yes",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Double Chance and Multi Goal X|2 + (1-4) Yes": {
+      "family": "unknown",
+      "selection": "Regular Time - Double Chance and Multi Goal X|2 + (1-4) Yes",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Double Chance and Multi Goal X|2 + (1-3) Yes": {
+      "family": "unknown",
+      "selection": "Regular Time - Double Chance and Multi Goal X|2 + (1-3) Yes",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Double Chance and Multi Goal X|2 + (1-2) Yes": {
+      "family": "unknown",
+      "selection": "Regular Time - Double Chance and Multi Goal X|2 + (1-2) Yes",
+      "line": null,
+      "topic": null
+    },
+    "1st Half - Odd/Even Goals Odd": {
+      "family": "unknown",
+      "selection": "1st Half - Odd/Even Goals Odd",
+      "line": null,
+      "topic": null
+    },
+    "1st Half - Odd/Even Goals Even": {
+      "family": "unknown",
+      "selection": "1st Half - Odd/Even Goals Even",
+      "line": null,
+      "topic": null
+    },
+    "1st Half - Both Teams to Score Yes": {
+      "family": "unknown",
+      "selection": "1st Half - Both Teams to Score Yes",
+      "line": null,
+      "topic": null
+    },
+    "1st Half - Both Teams to Score No": {
+      "family": "unknown",
+      "selection": "1st Half - Both Teams to Score No",
+      "line": null,
+      "topic": null
+    },
+    "2nd Half - Both Teams to Score Yes": {
+      "family": "unknown",
+      "selection": "2nd Half - Both Teams to Score Yes",
+      "line": null,
+      "topic": null
+    },
+    "2nd Half - Both Teams to Score No": {
+      "family": "unknown",
+      "selection": "2nd Half - Both Teams to Score No",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Both Teams to Score Yes": {
+      "family": "unknown",
+      "selection": "Regular Time - Both Teams to Score Yes",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Both Teams to Score No": {
+      "family": "unknown",
+      "selection": "Regular Time - Both Teams to Score No",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Team to Win and Both Teams to Score 1": {
+      "family": "unknown",
+      "selection": "Regular Time - Team to Win and Both Teams to Score 1",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Team to Win and Both Teams to Score X": {
+      "family": "unknown",
+      "selection": "Regular Time - Team to Win and Both Teams to Score X",
+      "line": null,
+      "topic": null
+    },
+    "Regular Time - Team to Win and Both Teams to Score 2": {
+      "family": "unknown",
+      "selection": "Regular Time - Team to Win and Both Teams to Score 2",
+      "line": null,
+      "topic": null
+    },
+    "Will Arsenal score both halves Yes": {
+      "family": "unknown",
+      "selection": "Will Arsenal score both halves Yes",
+      "line": null,
+      "topic": null
+    },
+    "Will Arsenal score both halves No": {
+      "family": "unknown",
+      "selection": "Will Arsenal score both halves No",
+      "line": null,
+      "topic": null
+    },
+    "Will Leeds United score both halves Yes": {
+      "family": "unknown",
+      "selection": "Will Leeds United score both halves Yes",
+      "line": null,
+      "topic": null
+    },
+    "Will Leeds United score both halves No": {
+      "family": "unknown",
+      "selection": "Will Leeds United score both halves No",
+      "line": null,
+      "topic": null
+    },
+    "1st Half Handicap (3way) 1 (-2)": {
+      "family": "unknown",
+      "selection": "1st Half Handicap (3way) 1 (-2)",
+      "line": null,
+      "topic": null
+    },
+    "1st Half Handicap (3way) Draw, First team (-2)": {
+      "family": "unknown",
+      "selection": "1st Half Handicap (3way) Draw, First team (-2)",
+      "line": null,
+      "topic": null
+    },
+    "1st Half Handicap (3way) 2 (+2)": {
+      "family": "unknown",
+      "selection": "1st Half Handicap (3way) 2 (+2)",
+      "line": null,
+      "topic": null
+    },
+    "1st Half Handicap (3way) 1 (-1)": {
+      "family": "unknown",
+      "selection": "1st Half Handicap (3way) 1 (-1)",
+      "line": null,
+      "topic": null
+    },
+    "1st Half Handicap (3way) Draw, First team (-1)": {
+      "family": "unknown",
+      "selection": "1st Half Handicap (3way) Draw, First team (-1)",
+      "line": null,
+      "topic": null
+    },
+    "1st Half Handicap (3way) 2 (+1)": {
+      "family": "unknown",
+      "selection": "1st Half Handicap (3way) 2 (+1)",
+      "line": null,
+      "topic": null
+    }
+  }
+}

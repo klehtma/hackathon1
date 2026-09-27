@@ -1,0 +1,129 @@
+{
+  "source1_to_source2": {
+    "high_confidence": {
+      "Match Result (1X2) [Home]": "1x2 Arsenal",
+      "Match Result (1X2) Draw": "1x2 Draw",
+      "Match Result (1X2) [Away]": "1x2 Leeds United",
+
+      "Total Goals Over 2.5": "Match Total Goals Over 2.5",
+      "Total Goals Under 2.5": "Match Total Goals Under 2.5",
+      "Total Goals Over 3.5": "Match Total Goals Over 3.5",
+      "Total Goals Under 3.5": "Match Total Goals Under 3.5",
+
+      "Both Teams To Score Yes": "Regular Time - Both Teams to Score Yes",
+      "Both Teams To Score No": "Regular Time - Both Teams to Score No",
+
+      "Draw No Bet [Home]": "Regular Time Draw No Bet 1",
+      "Draw No Bet [Away]": "Regular Time Draw No Bet 2",
+
+      "Double Chance [Home]/Draw": "Double chance 1X",
+      "Double Chance [Home]/[Away]": "Double chance 12",
+      "Double Chance [Away]/Draw": "Double chance X2",
+
+      "[Home] Total Goals Over 0.5": "Regular Time - Arsenal Total Goals Over/Under Over 0.5",
+      "[Home] Total Goals Under 0.5": "Regular Time - Arsenal Total Goals Over/Under Under 0.5",
+      "[Home] Total Goals Over 1.5": "Regular Time - Arsenal Total Goals Over/Under Over 1.5",
+      "[Home] Total Goals Under 1.5": "Regular Time - Arsenal Total Goals Over/Under Under 1.5",
+      "[Home] Total Goals Over 2.5": "Regular Time - Arsenal Total Goals Over/Under Over 2.5",
+      "[Home] Total Goals Under 2.5": "Regular Time - Arsenal Total Goals Over/Under Under 2.5",
+      "[Home] Total Goals Over 3.5": "Regular Time - Arsenal Total Goals Over/Under Over 3.5",
+      "[Home] Total Goals Under 3.5": "Regular Time - Arsenal Total Goals Over/Under Under 3.5",
+
+      "Early Win - Match Result (1X2) [Home]": "Early Win (Anytime 2 Goal Lead) Arsenal",
+      "Early Win - Match Result (1X2) [Away]": "Early Win (Anytime 2 Goal Lead) Leeds United",
+
+      "Asian Handicap [Home] 0 - 1": "Goals Handicap Arsenal -1",
+      "Asian Handicap [Away] 0 - 1": "Goals Handicap Leeds United -1",
+      "Asian Handicap [Home] 0 - 1.5": "Goals Handicap Arsenal -1.5",
+      "Asian Handicap [Away] 0 - 1.5": "Goals Handicap Leeds United -1.5",
+      "Asian Handicap [Home] 0 - 2": "Goals Handicap Arsenal -2",
+      "Asian Handicap [Away] 0 - 2": "Goals Handicap Leeds United -2",
+      "Asian Handicap [Home] 0 - 2.5": "Goals Handicap Arsenal -2.5",
+      "Asian Handicap [Away] 0 - 2.5": "Goals Handicap Leeds United -2.25",
+
+      "Handicap (3 Way) [Home] 0 - 3": "3-way handicap 1 (-3)",
+      "Handicap (3 Way) Draw 0 - 3": "3-way handicap Draw, First team (-3)",
+      "Handicap (3 Way) [Away] 0 - 3": "3-way handicap 2 (+3)",
+      "Handicap (3 Way) [Home] 0 - 2": "3-way handicap 1 (-2)",
+      "Handicap (3 Way) Draw 0 - 2": "3-way handicap Draw, First team (-2)",
+      "Handicap (3 Way) [Away] 0 - 2": "3-way handicap 2 (+2)",
+      "Handicap (3 Way) [Home] 0 - 1": "3-way handicap 1 (-1)",
+      "Handicap (3 Way) Draw 0 - 1": "3-way handicap Draw, First team (-1)",
+      "Handicap (3 Way) [Away] 0 - 1": "3-way handicap 2 (+1)"
+    },
+
+    "llm_confirmation": {
+      "Total Goals Over 0.5": "Over/Under Over 0.5",
+      "Total Goals Under 0.5": "Over/Under Under 0.5",
+      "Total Goals Over 1": "Match Total Goals Over 2",
+      "Total Goals Under 1": "Match Total Goals Under 2",
+      "Total Goals Over 1.5": "Over/Under Over 1.5",
+      "Total Goals Under 1.5": "Over/Under Under 1.5",
+      "Total Goals Over 2": "Match Total Goals Over 2",
+      "Total Goals Under 2": "Match Total Goals Under 2",
+      "Total Goals Over 4": "Over/Under Over 4.5",
+      "Total Goals Under 4": "Over/Under Under 4.5",
+      "Total Goals Over 4.5": "Over/Under Over 4.5",
+      "Total Goals Under 4.5": "Over/Under Under 4.5",
+      "Total Goals Over 5": "Over/Under Over 5.5",
+      "Total Goals Under 5": "Over/Under Under 5.5",
+      "Total Goals Over 5.5": "Over/Under Over 5.5",
+      "Total Goals Under 5.5": "Over/Under Under 5.5",
+
+      "[Home] Total Goals Over 1": "Regular Time - Arsenal Total Goals Over/Under Over 1.5",
+      "[Home] Total Goals Under 1": "Regular Time - Arsenal Total Goals Over/Under Under 1.5",
+      "[Home] Total Goals Over 2": "Regular Time - Arsenal Total Goals Over/Under Over 2.5",
+      "[Home] Total Goals Under 2": "Regular Time - Arsenal Total Goals Over/Under Under 2.5",
+      "[Home] Total Goals Over 3": "Regular Time - Arsenal Total Goals Over/Under Over 3.5",
+      "[Home] Total Goals Under 3": "Regular Time - Arsenal Total Goals Over/Under Under 3.5",
+
+      "Asian Handicap [Home] 0 - 3": "Goals Handicap Arsenal -2.5",
+      "Asian Handicap [Away] 0 - 3": "Goals Handicap Leeds United -2.5",
+      "Asian Handicap [Home] 0 - 3.5": "Goals Handicap Arsenal -3.5",
+      "Asian Handicap [Away] 0 - 3.5": "Goals Handicap Leeds United -3.5",
+      "Asian Handicap [Home] 0 - 4": "Goals Handicap Arsenal -4",
+      "Asian Handicap [Away] 0 - 4": "Goals Handicap Leeds United -4",
+      "Asian Handicap [Home] 0 - 4.5": "Goals Handicap Arsenal -4.5",
+      "Asian Handicap [Away] 0 - 4.5": "Goals Handicap Leeds United -4.5",
+      "Asian Handicap [Home] 0 - 5": "Goals Handicap Arsenal -5",
+      "Asian Handicap [Away] 0 - 5": "Goals Handicap Leeds United -5",
+
+      "Asian Handicap [Home] 1 - 0": "Goals Handicap Arsenal -0.5",
+      "Asian Handicap [Away] 1 - 0": "Goals Handicap Leeds United -0.5",
+      "Asian Handicap [Home] 1.5 - 0": "Goals Handicap Arsenal -1.5",
+      "Asian Handicap [Away] 1.5 - 0": "Goals Handicap Leeds United -1.5"
+    },
+
+    "no_mapping": [
+      "Total Goals Over 6.5",
+      "Total Goals Under 6.5",
+      "Total Goals Over 7",
+      "Total Goals Under 7",
+
+      "Handicap (3 Way) [Home] 0 - 5",
+      "Handicap (3 Way) Draw 0 - 5",
+      "Handicap (3 Way) [Away] 0 - 5",
+      "Handicap (3 Way) [Home] 0 - 4",
+      "Handicap (3 Way) Draw 0 - 4",
+      "Handicap (3 Way) [Away] 0 - 4",
+      "Handicap (3 Way) [Home] 1 - 0",
+      "Handicap (3 Way) Draw 1 - 0",
+      "Handicap (3 Way) [Away] 1 - 0",
+      "Handicap (3 Way) [Home] 2 - 0",
+      "Handicap (3 Way) Draw 2 - 0",
+      "Handicap (3 Way) [Away] 2 - 0",
+
+      "Both Teams To Score & Over 2.5 Goals Yes",
+      "Both Teams To Score & Over 2.5 Goals No",
+      "Both Teams To Score & Over 3.5 Goals Yes",
+      "Both Teams To Score & Over 3.5 Goals No",
+
+      "[Home] Total Goals Over 4",
+      "[Home] Total Goals Under 4",
+      "[Home] Total Goals Over 4.5",
+      "[Home] Total Goals Under 4.5",
+      "[Home] Total Goals Over 5",
+      "[Home] Total Goals Under 5"
+    ]
+  }
+}

@@ -4,6 +4,7 @@ import os
 from urllib.parse import urlparse
 
 def get_cool_page(competition_url, driver):
+    match_id = competition_url.split("/")[-1]
     tries = 0
     max_tries = 3
     data = {"fo": None, "fo-line": None, "sidebets": None}
@@ -61,10 +62,10 @@ def get_cool_page(competition_url, driver):
             print(f"SIDEBETS: {'OK' if data['sidebets'] is not None else 'FAILED'}")
             print("\nResponse data:")
             print(json.dumps(data,ensure_ascii=False,indent=4))
-            with open(f"coolbet/get_page_data/cool_data_{int(time.time())}.json", "w", encoding="utf-8") as f:
+            with open(f"coolbet/get_page_data/cool_data_{match_id}.json", "w", encoding="utf-8") as f:
                 json.dump(data, f, ensure_ascii=False, indent=4)
-            print(f"\n💾 Data saved to: {f"coolbet/get_page_data/cool_data_{int(time.time())}.json"}")
-            return
+            print(f"\n💾 Data saved to: {f"coolbet/get_page_data/cool_data_{match_id}.json"}")
+            return match_id
         except Exception as e:
             print(f"\n❌ Unsuccessful, trying again..."f" ({e})")
             try:
@@ -77,4 +78,5 @@ def get_cool_page(competition_url, driver):
     print(
         f"\n❌ Failed after {max_tries} attempts."
     )
+    return None
     

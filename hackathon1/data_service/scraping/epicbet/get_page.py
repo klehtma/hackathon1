@@ -4,6 +4,7 @@ import os
 from urllib.parse import urlparse
 
 def get_epic_page(competition_url, driver):
+    match_id = competition_url.split("=")[-1]
     tries = 0
     max_tries = 3
     output_dir = "epicbet/get_page_data"
@@ -74,11 +75,11 @@ def get_epic_page(competition_url, driver):
             print(f"MATCH.GET:   {'OK' if data['match.Get'] is not None else 'FAILED'}")
             print("\nResponse data:")
             print(json.dumps(data, ensure_ascii=False, indent=4))
-            filepath = f"epicbet/get_page_data/epic_data_{int(time.time())}.json"
+            filepath = f"epicbet/get_page_data/epic_data_{match_id}.json"
             with open(filepath, "w", encoding="utf-8") as f:
                 json.dump(data, f, ensure_ascii=False, indent=4)
             print(f"\n💾 Data saved to: {filepath}")
-            return
+            return match_id
         except Exception as e:
             print(f"\n❌ Unsuccessful, trying again..."f" ({e})")
             try:
@@ -91,3 +92,4 @@ def get_epic_page(competition_url, driver):
     print(
         f"\n❌ Failed after {max_tries} attempts."
     )
+    return None
