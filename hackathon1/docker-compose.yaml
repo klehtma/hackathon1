@@ -78,6 +78,9 @@ services:
   # ==========================================================
 
   data_service_beta:
+    profiles:
+      - ["scraper"]
+
     build:
       context: ./data_service_beta
       dockerfile: Dockerfile
