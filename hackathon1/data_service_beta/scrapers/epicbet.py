@@ -1,46 +1,48 @@
 """
 Epicbet scraper.
 
-Like Coolbet, Epicbet needs two network calls to get a fully-priced match:
-  1. The competition listing call (`match.getFoByLeague`) gives match ids,
-     team names, and kickoff times for every event in the league.
-  2. A per-match page load, which triggers two more calls: `match.Get`
-     (the market/outcome shape, including each team's id so we can tell
-     home from away) and one or more `activeOdds` calls (outcome_id ->
-     price).
+Same two-step pattern as Coolbet:
+  1. The competition listing call (matches "match.getFoByLeague?input=%")
+     gives match ids, team names, kickoff times, and each match's "Money
+     Line" market shape (outcome ids + team names, no prices).
+  2. A per-match page load (URL = "<competition_url>?matchId=<id>")
+     triggers one or more "activeOdds" calls giving outcome_id -> price.
 
-This mirrors the working approach already in data_service/scraping/epicbet
-(proven against real responses, see the sample JSON files in that folder) —
-just collapsed into one direct in-memory pass instead of a multi-stage
-file-based pipeline.
+Built from real captured samples in the original data_service/scraping/
+epicbet folder (get_urls_data/, get_page_data/) — same technique, LLM step
+removed, collapsed into one direct in-memory pass.
 """
 
 import time
-from datetime import datetime, timezone
-from urllib.parse import urlparse, urlunparse
+from datetime import datetime
 
 BOOKMAKER = "Epicbet"
 
-# Market-group names that represent the plain match-winner / moneyline
-# market, across the sports Epicbet lists. Extend this if you scrape a
-# sport whose market is named something else — check a saved match.Get
-# response for the marketGroup["name"] your competition actually uses.
-PRIMARY_MARKET_NAMES = {"1x2", "moneyline", "money line", "match winner"}
+PRIMARY_MARKET_NAMES = {
+    "money line",
+    "match result",
+    "1x2",
+    "full time result",
+    "match winner",
+}
 
 
-def _match_url(competition_url: str, match_id) -> str:
-    """Epicbet loads a specific match by adding ?matchId=<id> to a bare
-    sport/country URL, e.g.
-    https://epicbet.com/en/sports/football/spain?matchId=2092634 — note
-    there's no league slug on that URL. Competition (listing) URLs have
-    one extra path segment for the league, so we drop it here."""
-    parsed = urlparse(competition_url)
-    segments = [s for s in parsed.path.split("/") if s]
-    # Expect .../sports/<sport>/<country>/<league-slug> -> keep the first
-    # four segments (.../sports/<sport>/<country>).
-    base_path = "/" + "/".join(segments[:4])
-    base = urlunparse((parsed.scheme, parsed.netloc, base_path, "", "", ""))
-    return f"{base}?matchId={match_id}"
+def _find_primary_market(match: dict) -> dict | None:
+    for group in match.get("marketGroups", []):
+        name = (group.get("name") or "").strip().lower()
+        if name in PRIMARY_MARKET_NAMES:
+            markets = group.get("markets", [])
+            if markets:
+                return markets[0]  # the un-handicapped, straight-up market
+    return None
+
+
+def _role_for_outcome(outcome: dict, match: dict) -> str:
+    if outcome.get("teamId") == match.get("homeTeamId"):
+        return "home"
+    if outcome.get("teamId") == match.get("awayTeamId"):
+        return "away"
+    return "draw"
 
 
 def _fetch_listing(driver, competition_url: str, tries: int = 3) -> dict | None:
@@ -57,80 +59,48 @@ def _fetch_listing(driver, competition_url: str, tries: int = 3) -> dict | None:
     return None
 
 
-def _fetch_match_data(driver, match_url: str, tries: int = 3) -> tuple[dict | None, dict]:
-    """Returns (match.Get data, outcome_id -> price dict) for one match."""
+def _fetch_match_prices(driver, competition_url: str, match_id, tries: int = 3) -> dict:
+    """Returns a dict of outcome_id -> price for one match."""
+    match_url = f"{competition_url}?matchId={match_id}"
+
     for attempt in range(tries):
-        responses = {"activeOdds": [], "match_get": None}
+        active_odds_responses = []
 
         def handle_response(response):
-            path = response.url.split("?")[0]
-            if "/s/core-proxy/public/sport-odds/activeOdds" in path:
-                responses["activeOdds"].append(response)
-            elif "/s/core-proxy/public/sport-base/match.getSidebets" in path:
-                responses["match_get"] = response
+            if "/s/core-proxy/public/sport-odds/activeOdds" in response.url:
+                active_odds_responses.append(response)
 
         try:
             driver.on("response", handle_response)
             driver.goto(match_url, wait_until="domcontentloaded")
 
-            # Wait out the full timeout so we catch every activeOdds call,
-            # not just the first one (same reasoning as data_service's
-            # original get_page.py).
             start = time.time()
             while time.time() - start < 10:
                 time.sleep(0.2)
 
-            if not responses["activeOdds"] or responses["match_get"] is None:
-                print(
-                    f"[epicbet] incomplete responses for {match_url}, "
-                    f"attempt {attempt + 1}/{tries}"
-                )
-                continue
-
-            match_data = responses["match_get"].json()["result"]["data"]
-
             prices = {}
-            for response in responses["activeOdds"]:
+            for response in active_odds_responses:
                 try:
                     for entry in response.json()["result"]["data"]:
                         prices[entry["outcomeId"]] = entry["value"]
                 except Exception as e:
-                    print(f"[epicbet] could not parse activeOdds for {match_url}: {e}")
+                    print(f"[epicbet] could not parse an activeOdds response: {e}")
 
             if prices:
-                return match_data, prices
+                return prices
+            print(f"[epicbet] no price data for match {match_id}, attempt {attempt + 1}/{tries}")
         except Exception as e:
-            print(f"[epicbet] page fetch failed for {match_url}: {e}")
+            print(f"[epicbet] price fetch failed for match {match_id}: {e}")
         finally:
             try:
                 driver.remove_listener("response", handle_response)
             except Exception:
                 pass
 
-    return None, {}
-
-
-def _find_primary_market_group(match_data: dict) -> dict | None:
-    for group in match_data.get("marketGroups", []):
-        name = (group.get("name") or "").strip().lower()
-        if name in PRIMARY_MARKET_NAMES:
-            return group
-    return None
-
-
-def _role_from_outcome(outcome: dict, home_team_id, away_team_id) -> str:
-    team_id = outcome.get("teamId")
-    if team_id == home_team_id:
-        return "home"
-    if team_id == away_team_id:
-        return "away"
-    return "draw"  # the draw outcome carries no teamId
+    return {}
 
 
 def fetch_competition(driver, competition_url: str, sport_key: str) -> list[dict]:
-    """Returns a list of normalized match dicts, see arbitrage.py for the
-    shared shape every scraper must return."""
-
     listing = _fetch_listing(driver, competition_url)
     if not listing:
         print(f"[epicbet] giving up on {competition_url} — no listing data")
@@ -140,40 +110,35 @@ def fetch_competition(driver, competition_url: str, sport_key: str) -> list[dict
 
     results = []
     for match in matches:
-        match_url = _match_url(competition_url, match["id"])
-        match_data, prices = _fetch_match_data(driver, match_url)
-        if not match_data or not prices:
-            print(f"[epicbet] skipping match {match['id']} — incomplete data")
+        market = _find_primary_market(match)
+        if not market:
             continue
 
-        group = _find_primary_market_group(match_data)
-        if not group or not group.get("markets"):
-            available = [g.get("name") for g in match_data.get("marketGroups", [])][:10]
-            print(
-                f"[epicbet] skipping match {match['id']} — no moneyline market "
-                f"(available group names: {available})"
-            )
-            continue
+        outcomes = market.get("outcomes", [])
+        outcome_ids = [o["id"] for o in outcomes]
 
-        outcomes = group["markets"][0].get("outcomes", [])
-        if not outcomes or any(o["id"] not in prices for o in outcomes):
+        prices = _fetch_match_prices(driver, competition_url, match["id"])
+        if not prices or any(oid not in prices for oid in outcome_ids):
             print(f"[epicbet] skipping match {match['id']} — incomplete prices")
             continue
 
         try:
-            commence_time = datetime.fromisoformat(match["startDate"]).astimezone(timezone.utc)
+            # e.g. "2026-09-25 16:30:00+00" — Postgres-style offset, not quite
+            # ISO 8601 ("+00" needs to become "+00:00" for fromisoformat).
+            raw = match["startDate"]
+            if raw.endswith("+00"):
+                raw = raw + ":00"
+            commence_time = datetime.fromisoformat(raw)
         except Exception as e:
             print(f"[epicbet] skipping match {match['id']} — bad startDate: {e}")
             continue
 
         home_team = match["homeTeamName"].strip()
         away_team = match["awayTeamName"].strip()
-        home_team_id = match_data.get("homeTeamId")
-        away_team_id = match_data.get("awayTeamId")
 
         priced_outcomes = [
             {
-                "role": _role_from_outcome(o, home_team_id, away_team_id),
+                "role": _role_for_outcome(o, match),
                 "name": o["name"].strip(),
                 "price": prices[o["id"]],
             }

@@ -5,7 +5,7 @@ Configuration for data_service_beta.
 import os
 from dataclasses import dataclass, field
 
-from scrapers import coolbet, optibet, vivatbet
+from scrapers import coolbet, epicbet, optibet, vivatbet
 
 
 # --------------------------------------------------------------------------- #
@@ -44,6 +44,7 @@ SCRAPERS = {
     "coolbet": coolbet.fetch_competition,
     "optibet": optibet.fetch_competition,
     "vivatbet": vivatbet.fetch_competition,
+    "epicbet": epicbet.fetch_competition,
 }
 
 
@@ -63,6 +64,16 @@ class Competition:
 
 
 COMPETITIONS = [
+    Competition(
+        sport_key="soccer_estonia_meistriliiga",
+        urls={
+            "coolbet": "https://www.coolbet.com/en/sports/football/estonia/meistriliiga",
+            "optibet": "https://www.optibet.ee/en/sport/prematch/Meistriliiga-<FILL_IN_GROUP_ID>",
+            # Add "epicbet": "..." here too once you've confirmed Epicbet
+            # carries this league — the URL shape is
+            # https://epicbet.com/en/sports/football/estonia/... (or similar).
+        },
+    ),
     Competition(
         sport_key="soccer_uefa_champions_league",
         urls={
