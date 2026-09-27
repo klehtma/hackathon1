@@ -2,11 +2,7 @@ import time
 import json
 
 def get_epic_urls(competition_url, driver):
-    result = []
-    clubs = []
-    request_ids = {}
     data = []
-
     
     tries = 0
     while not data and tries < 3:
@@ -32,4 +28,3 @@ def get_epic_urls(competition_url, driver):
         #pass to lightweight llm to get structured data
         
         
-    return result, clubs

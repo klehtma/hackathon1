@@ -23,11 +23,15 @@ with Driver() as page:
     output_dir = Path(__file__).parent / "data"
     output_dir.mkdir(exist_ok=True)
     
-    get_opti_page(opti_comp1, page)
-    exit()
-    epic_urls, epic_clubs = get_epic_urls(epic_comp, page)
-    opti_urls, opti_clubs = get_opti_urls(opti_comp, page)
-    cool_urls, cool_clubs = get_cool_urls(cool_comp, page)
+    
+    
+    get_epic_urls(epic_comp, page)
+    get_opti_urls(opti_comp, page)
+    get_cool_urls(cool_comp, page)
+
+
+
+
     exit()
     time.sleep(10)
     print(page.title())
