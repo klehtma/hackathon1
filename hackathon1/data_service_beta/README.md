@@ -1,9 +1,9 @@
 # data_service_beta
 
-A stripped-down version of `data_service`, scraping **only Epicbet and
+A stripped-down version of `data_service`, scraping **only Coolbet and
 Optibet**, with no LLM anywhere in the pipeline:
 
-- **Scraping** (`scrapers/epicbet.py`, `scrapers/optibet.py`) — same
+- **Scraping** (`scrapers/coolbet.py`, `scrapers/optibet.py`) — same
   network-interception technique already proven in `data_service` (loading
   the page with Camoufox and grabbing the site's own internal JSON API
   responses), just collapsed into one direct pass with no intermediate
@@ -20,17 +20,14 @@ Optibet**, with no LLM anywhere in the pipeline:
 ## Before running this
 
 1. **Fill in real competition URLs** in `config.py`. The placeholder pair
-   needs a real Optibet group id, and the Epicbet URL is an *educated guess*
-   at the site's URL pattern (`.../sports/football/estonia/meistriliiga`) —
-   verify it in a browser before relying on it. Open both sites, navigate
+   needs a real Optibet group id — open both sites in a browser, navigate
    to the *same* league on each, and copy the competition-listing URLs (not
    a single match URL). Pick a league both books definitely carry — the
    comments in `config.py` suggest the Estonian Meistriliiga as a good bet.
-2. **Double check the market names** `scrapers/epicbet.py` looks for
+2. **Double check the market names** `scrapers/coolbet.py` looks for
    (`PRIMARY_MARKET_NAMES`) actually match what your chosen sport calls its
-   moneyline/match-result market — this was written against football
-   (`"1x2"`) and basketball samples; a different sport might label it
-   slightly differently.
+   moneyline/match-result market — this was written against a basketball
+   sample; a different sport might label it slightly differently.
 
 ## Wiring it into docker-compose.yaml
 
@@ -79,12 +76,8 @@ which stage to look at.
   one league; will misfire more as you add leagues with very different
   naming conventions between books. An alias dictionary (see the earlier
   suggestion) is the next step up if this starts producing false negatives.
-- **Epicbet still needs one page-load per match** to get prices, so it's
+- **Coolbet still needs one page-load per match** to get prices, so it's
   the slower of the two scrapers. Optibet gets everything in one request.
-- **Epicbet's per-match URL is derived from the competition URL** by
-  dropping the league slug and appending `?matchId=<id>` (see
-  `scrapers/epicbet.py::_match_url`) — this matches the one sample URL
-  pattern we've seen; re-check it if matches start being skipped.
-- **No retries across the two scrapers' full run** — if Epicbet's listing
+- **No retries across the two scrapers' full run** — if Coolbet's listing
   call fails after its internal retries, that competition is just skipped
   for this cycle; it'll try again next `POLL_INTERVAL_SECONDS`.

@@ -5,13 +5,9 @@ import config
 import db
 import normalize
 from driver import Driver
-from scrapers import epicbet, optibet
 
 
 def run_once() -> int:
-    """One full scrape + match + write pass. Returns the number of
-    opportunities written."""
-
     written = 0
 
     with Driver() as page:
@@ -19,26 +15,33 @@ def run_once() -> int:
             for comp in config.COMPETITIONS:
                 print(f"\n=== {comp.sport_key} ===")
 
-                epic_events = epicbet.fetch_competition(page, comp.epicbet_url, comp.sport_key)
-                opti_events = optibet.fetch_competition(page, comp.optibet_url, comp.sport_key)
+                events_by_book = {}
+                for book, url in comp.urls.items():
+                    scraper = config.SCRAPERS.get(book)
+                    if not scraper:
+                        print(f"[main] no scraper registered for {book!r}, skipping")
+                        continue
+                    events_by_book[book] = scraper(page, url, comp.sport_key)
 
-                pairs = normalize.match_events(
-                    epic_events, opti_events, config.MATCH_TIME_TOLERANCE_MINUTES
-                )
-                print(
-                    f"[match] {len(pairs)} matched pairs out of "
-                    f"{len(epic_events)} epicbet / {len(opti_events)} optibet events"
-                )
+                if len(events_by_book) < 2:
+                    print(f"[main] {comp.sport_key}: fewer than 2 books configured, "
+                          f"nothing to compare — skipping")
+                    continue
 
-                for epic_event, opti_event in pairs:
-                    opp = arbitrage.compute_arbitrage(
-                        epic_event, opti_event, config.MIN_PROFIT_PERCENT
-                    )
+                groups = normalize.match_events(
+                    events_by_book, config.MATCH_TIME_TOLERANCE_MINUTES
+                )
+                counts = ", ".join(f"{b}={len(e)}" for b, e in events_by_book.items())
+                print(f"[match] {len(groups)} matched groups out of ({counts})")
+
+                for group in groups:
+                    opp = arbitrage.compute_arbitrage(group, config.MIN_PROFIT_PERCENT)
                     if not opp:
                         continue
 
                     print(
-                        f"[arb] {opp['homeTeam']} vs {opp['awayTeam']}: "
+                        f"[arb] {opp['homeTeam']} vs {opp['awayTeam']} "
+                        f"({'+'.join(sorted(group.keys()))}): "
                         f"{opp['profitPercent']:.2f}% profit"
                     )
                     db.upsert_opportunity(conn, opp)
@@ -57,8 +60,6 @@ def main():
         try:
             run_once()
         except Exception as e:
-            # Keep the loop alive across a bad run (e.g. a site was briefly
-            # unreachable) instead of crashing the whole container.
             print(f"[main] run failed: {e}")
         time.sleep(config.POLL_INTERVAL_SECONDS)
 

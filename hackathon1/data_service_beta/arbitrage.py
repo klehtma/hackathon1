@@ -1,21 +1,21 @@
 """
-Turns a matched pair of events (one per book) into an ArbOpportunity dict
-ready for db.py — or returns None if there's no arbitrage, or the two
-books don't cover the same set of outcomes (e.g. one is 2-way, one is
-3-way, which shouldn't normally happen for the same real-world match, but
-scrapers can return partial data).
+Turns a matched group of events (one per book, 2 or more) into an
+ArbOpportunity dict ready for db.py — or returns None if there's no
+arbitrage, or the books don't all cover the same set of outcomes.
 """
 
 from datetime import datetime, timezone
 
 
-def _best_price_per_role(event_a: dict, event_b: dict) -> dict | None:
-    roles_needed = {o["role"] for o in event_a["outcomes"]}
-    if roles_needed != {o["role"] for o in event_b["outcomes"]}:
-        return None  # market shapes don't match (e.g. 2-way vs 3-way)
+def _best_price_per_role(group: dict[str, dict]) -> dict | None:
+    events = list(group.values())
+    roles_needed = {o["role"] for o in events[0]["outcomes"]}
+    for event in events[1:]:
+        if {o["role"] for o in event["outcomes"]} != roles_needed:
+            return None  # market shapes don't match across books
 
     best = {}
-    for event in (event_a, event_b):
+    for event in events:
         for outcome in event["outcomes"]:
             role = outcome["role"]
             candidate = {
@@ -31,8 +31,11 @@ def _best_price_per_role(event_a: dict, event_b: dict) -> dict | None:
     return best
 
 
-def compute_arbitrage(event_a: dict, event_b: dict, min_profit_percent: float = 0.0) -> dict | None:
-    best = _best_price_per_role(event_a, event_b)
+def compute_arbitrage(group: dict[str, dict], min_profit_percent: float = 0.0) -> dict | None:
+    if len(group) < 2:
+        return None
+
+    best = _best_price_per_role(group)
     if not best:
         return None
 
@@ -52,17 +55,18 @@ def compute_arbitrage(event_a: dict, event_b: dict, min_profit_percent: float = 
         for leg in best.values()
     ]
 
-    match_id = (
-        f"{event_a['bookmaker'].lower()}-{event_a['external_id']}-"
-        f"{event_b['bookmaker'].lower()}-{event_b['external_id']}"
+    # Stable id regardless of dict ordering: sort by bookmaker name.
+    any_event = next(iter(group.values()))
+    match_id = "-".join(
+        f"{book}:{event['external_id']}" for book, event in sorted(group.items())
     )
 
     return {
         "matchId": match_id,
-        "homeTeam": event_a["home_team"],
-        "awayTeam": event_a["away_team"],
-        "commenceTime": event_a["commence_time"],
-        "sportKey": event_a.get("sport_key"),
+        "homeTeam": any_event["home_team"],
+        "awayTeam": any_event["away_team"],
+        "commenceTime": any_event["commence_time"],
+        "sportKey": any_event.get("sport_key"),
         "totalImpliedProbability": total_implied,
         "profitPercent": profit_percent,
         "detectedAt": datetime.now(timezone.utc),

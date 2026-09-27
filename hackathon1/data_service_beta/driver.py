@@ -12,7 +12,6 @@ class Driver:
     def __init__(self):
         self._cf = Camoufox(
             humanize=True,
-            headless=True,
             geoip=True,
             screen=Screen(max_width=1920, max_height=1080),
             block_webrtc=True,
