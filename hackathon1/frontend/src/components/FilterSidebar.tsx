@@ -24,7 +24,7 @@ export default function FilterSidebar({
             id="min-profit"
             type="number"
             step="0.1"
-            min="0"
+            min="-100"
             value={minProfit}
             onChange={(e) => onMinProfitChange(Number(e.target.value))}
           />
