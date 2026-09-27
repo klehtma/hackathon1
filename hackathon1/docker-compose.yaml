@@ -25,6 +25,8 @@ services:
 
       DATABASE_URL: postgresql://${BACKEND_DB_USER}:${BACKEND_DB_PASSWORD}@postgres:5432/${POSTGRES_DB}
 
+      MOZ_DISABLE_CONTENT_SANDBOX: "1"
+
     depends_on:
       postgres:
         condition: service_healthy
@@ -71,6 +73,36 @@ services:
 
 
   # ==========================================================
+  # DATA SERVICE BETA
+  # Python + SQLAlchemy + psycopg
+  # ==========================================================
+
+  data_service_beta:
+    profiles: ["scraper"]
+    build:
+      context: ./data_service_beta
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      DATA_SERVICE_DB_USER: ${DATA_SERVICE_DB_USER}
+      DATA_SERVICE_DB_PASSWORD: ${DATA_SERVICE_DB_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_HOST: postgres
+      RUN_ONCE: "false"          # <-- loop continuously instead of one-shot
+      POLL_INTERVAL_SECONDS: "120"
+      MIN_PROFIT_PERCENT: "-100" # <-- TEMPORARY: writes every matched pair,
+                                
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - data_network
+      - scraper_egress_network
+
+
+# ==========================================================
   # DATA SERVICE
   # Python + SQLAlchemy + psycopg
   # ==========================================================
@@ -294,6 +326,10 @@ networks:
   data_network:
     driver: bridge
     internal: true
+
+  # scraper access
+  scraper_egress_network:
+    driver: bridge
 
 
 # ============================================================

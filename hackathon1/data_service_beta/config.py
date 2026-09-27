@@ -71,9 +71,9 @@ class CompetitionPair:
 
 COMPETITIONS = [
     CompetitionPair(
-        sport_key="soccer_estonia_meistriliiga",
-        epicbet_url="https://epicbet.com/en/sports/football/estonia/meistriliiga",
-        optibet_url="https://www.optibet.ee/en/sport/prematch/Meistriliiga-<FILL_IN_GROUP_ID>",
+        sport_key="soccer_uefa_champions_league",
+        epicbet_url="https://epicbet.com/et/sport/jalgpall/euroopa/uefa-meistrite-liiga",
+        optibet_url="https://www.optibet.ee/sport/prematch/Meistrite-Liiga-495",
     ),
     # Add more pairs here as you validate them.
 ]

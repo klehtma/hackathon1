@@ -148,7 +148,11 @@ def fetch_competition(driver, competition_url: str, sport_key: str) -> list[dict
 
         group = _find_primary_market_group(match_data)
         if not group or not group.get("markets"):
-            print(f"[epicbet] skipping match {match['id']} — no moneyline market")
+            available = [g.get("name") for g in match_data.get("marketGroups", [])][:10]
+            print(
+                f"[epicbet] skipping match {match['id']} — no moneyline market "
+                f"(available group names: {available})"
+            )
             continue
 
         outcomes = group["markets"][0].get("outcomes", [])
