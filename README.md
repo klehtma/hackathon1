@@ -2,7 +2,7 @@
 
 A small full-stack app (Node.js backend + frontend + PostgreSQL), containerized with Docker and deployed on AWS EC2.
 
-**Live demo:** https://arbetter.duckdns.org/ 
+**Live demo(not active):** https://arbetter.duckdns.org/ 
 - requires user/password
 
 ## Stack
